@@ -1,0 +1,39 @@
+body {
+  font-family: DM Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 1.5;
+  color: var(--main_text);
+  letter-spacing: 0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+/* svg {
+  fill: currentColor;
+} */
+
+.link-style_none {
+  text-decoration: none;
+}
+
+.list-style_none {
+  list-style: none;
+}
