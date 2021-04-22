@@ -1,9 +1,10 @@
 body {
   color: var(--main_text);
-  font-family: DM Sans, sans-serif;
+  font-family: --main-font;
 
+  font-weight: 400;
   font-size: 12px;
-  font-weight: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -31,10 +32,10 @@ img {
   fill: currentColor;
 } */
 
-.link-style_none {
+.link {
   text-decoration: none;
 }
 
-.list-style_none {
+.list {
   list-style: none;
 }
