@@ -1,0 +1,22 @@
+.container {
+  width: 310px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 1px solid red;
+}
+
+// tablet
+@media screen and (min-width: 730px) {
+  .container {
+    width: 730px;
+  }
+}
+
+// desktop
+@media screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+  }
+}

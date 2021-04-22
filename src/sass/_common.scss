@@ -1,0 +1,41 @@
+body {
+  color: var(--main_text);
+  font-family: --main-font;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+/* svg {
+  fill: currentColor;
+} */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
