@@ -1,0 +1,215 @@
+.price-list{
+    padding-top: 121px;
+    padding-bottom: 98px;
+}
+.product__item{
+    margin-bottom: 140px;
+}
+
+.advertising{
+    font-family: var(--title_heading);
+   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16;
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFA5BA;
+    margin-bottom: 15px;
+}
+
+.title-name{
+    font-family: var(--title_heading);
+    
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--accent_color);
+    margin-bottom: 137px;
+}
+
+
+.product__title{
+    font-family: var(--title_heading);
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--white);
+    
+    margin-bottom: 30px;
+}
+.product__label{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+     text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--white);
+    margin-bottom: 30px;
+    margin-left: 11px;
+    margin-right: 11px;
+    
+}    
+.product__box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     padding-bottom: 41px;
+    border-radius: 24px;
+    width: 280px;
+    height: auto;
+   
+}
+   
+.product__box_first{
+    background: var(--hero_background);
+}
+.product__box_second{
+    background: var(--card_background_coffee)
+}
+.product__box_third{
+    background: var(--card_background_mint)
+}
+.product__icon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    fill: red;
+}
+.product__button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--white);
+    border-color: var(--white);
+}
+
+.product__points{
+    
+    width: 26px;
+    height: 6px;
+    fill: white;
+    margin-bottom: 30px;
+}
+
+// .product__photo{
+    
+//     z-index: 1;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     transform: translatey(-50%) translateX(10%);
+// }
+
+.product__box_first::before {
+    display: block;
+    content: "";
+    background-image: url(../images/products/mobile/pink_ice_cream.png);
+    z-index: 10;
+    width: 249px;
+    height: 252px;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+
+}
+.product__box_second::before {
+    display: block;
+    content: "";
+    background-image: url(../images/products/mobile/ice_coffee.png);
+     background-size: cover;
+    width: 249px;
+    height: 252px;
+     top: 0;
+     left: 0;
+     transform: translateY(-50%);
+     
+ }   
+
+.product__box_third::before {
+   display: block;
+   content: "";
+   background-image: url(../images/products/mobile/milkshakes.png);
+   background-size: cover;
+   width: 249px;
+   height: 252px;
+   top: 0;
+   left: 0;
+   transform: translateY(-50%);
+}
+@media screen and (min-width: 730px){
+    .price-list{
+padding-bottom: 112px;
+    }
+    .advertising{
+        font-size: 26px;
+        line-height: 1.15;
+    }
+    .product__item {
+      margin-bottom: 0px;
+    }
+    .title-name{
+        font-size: 48px;
+        line-height: 1.4;
+    }
+    .product__title{
+        line-height: 1.78;
+    }
+    .product{
+        display: flex;
+            flex-wrap: wrap;
+            margin-left: -20px;
+            margin-top: -20px;
+            
+    }
+    .product__item{
+        display: flex;
+        flex-basis: calc(100% / 3 - 20px);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .product__box{
+        width: 220px;
+        flex-grow: 1;
+    }
+   
+}
+@media screen and (min-width: 1080px){
+    .price-list {
+      padding-bottom: 119px;
+    }
+  .product {
+   
+    margin-left: -24px;
+    margin-top: -24px;
+}
+
+.product__item {
+
+  flex-basis: calc(100% / 3 - 24px);
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+}
