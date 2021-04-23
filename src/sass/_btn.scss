@@ -1,0 +1,33 @@
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  min-width: 209px;
+  min-height: 44px;
+  margin: 0 21px;
+  padding: 0px 48px;
+  border-radius: 22px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  color: var(--accent_color);
+  background-color: var(--white);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
+  &__icon {
+    margin-left: 15px;
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    min-width: 186px;
+    padding: 0px 43px;
+    margin: 0px 34px;
+  }
+}
