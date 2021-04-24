@@ -2,8 +2,6 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
-@import './header';
-@import './hero';
 
 // Стили для файла с примером HTML-фрагмента
 // @import './example';
@@ -11,7 +9,6 @@
 // базовые стили
 @import './common';
 @import './container';
-@import './btn';
 
 // утилиты
 @import './variables';
@@ -20,8 +17,12 @@
 // компоненты
 @import './title';
 @import './modal';
+@import './btn';
 
 // оформление страници
+@import './header';
+@import './hero';
+
 @import './mention';
 
 @import './gallery';
