@@ -1,75 +1,51 @@
 .mention-reviews {
   padding-top: 80px;
   padding-bottom: var(--section-pb);
+
+  & .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
 }
 
-.mention-reviews .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.client {
+  &-photo {
+    margin-bottom: 25px;
+  }
 
-  text-align: center;
-}
+  &-wrapper {
+    width: 280px;
+    padding: 20px 50px;
+    margin-bottom: 30px;
 
-.client-photo {
-  margin-bottom: 25px;
-}
+    color: var(--black);
+    font-weight: 500;
 
-.client-descr {
-  margin-bottom: 30px;
+    line-height: 2.5;
 
-  color: var(--black);
-  font-weight: 500;
+    background-color: #fafafa;
+  }
 
-  line-height: 255%;
+  &-descr {
+    background-image: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0),
+      #e1e1e1 1px 2px,
+      rgba(0, 0, 0, 0) 2px 30px
+    );
+  }
 
-  padding: 45px 50px 20px;
-
-  background-color: #fafafa;
-}
-
-.client-substrate {
-  width: 157px;
-
-  margin-left: -20px;
-  margin-right: -20px;
-
-  background-image: linear-gradient(
-    0deg,
-    rgba(225, 225, 225, 1) 0%,
-    rgba(0, 0, 0, 0) 2%,
-    rgba(0, 0, 0, 0) 12%,
-    rgba(225, 225, 225, 1) 13%,
-    rgba(0, 0, 0, 0) 14%,
-    rgba(0, 0, 0, 0) 23%,
-    rgba(225, 225, 225, 1) 24%,
-    rgba(0, 0, 0, 0) 25%,
-    rgba(0, 0, 0, 0) 35%,
-    rgba(225, 225, 225, 1) 36%,
-    rgba(0, 0, 0, 0) 37%,
-    rgba(0, 0, 0, 0.02874653279280459) 47%,
-    rgba(225, 225, 225, 1) 48%,
-    rgba(0, 0, 0, 0) 49%,
-    rgba(35, 35, 35, 0) 59%,
-    rgba(225, 225, 225, 1) 60%,
-    rgba(0, 0, 0, 0) 61%,
-    rgba(0, 0, 0, 0) 71%,
-    rgba(225, 225, 225, 1) 72%,
-    rgba(0, 0, 0, 0) 73%,
-    rgba(0, 0, 0, 0) 83%,
-    rgba(225, 225, 225, 1) 84%,
-    rgba(0, 0, 0, 0) 85%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  &-site {
+    margin-bottom: 30px;
+  }
 }
 
 .group-points {
   margin-bottom: 18px;
   fill: var(--primary_accent);
-}
-
-.client-site {
-  margin-bottom: 30px;
 }
 
 .home-slider {
@@ -82,21 +58,33 @@
 
 // tablet
 @media screen and (min-width: 730px) {
-  .client-descr {
-    margin-bottom: 30px;
+  .client {
+    &-wrapper {
+      width: 620px;
+      padding: 20px 50px;
+    }
 
-    font-size: 14px;
-    line-height: 216%;
-  }
+    // &-descr {
+    //   padding-left: 34px;
+    //   padding-right: 34px;
+    // }
 
-  .client-substrate {
-    width: 460px;
+    &-inner {
+      font-size: 14px;
+    }
   }
 }
 
 // desktop
 @media screen and (min-width: 1080px) {
-  .client-substrate {
-    width: 750px;
+  .client {
+    &-wrapper {
+      width: 932px;
+      // padding: 20px 50px;
+    }
+
+    &-inner {
+      font-size: 16px;
+    }
   }
 }
