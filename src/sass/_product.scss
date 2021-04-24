@@ -36,6 +36,7 @@
 
 
 .product__title{
+  padding-top: 150px;
     font-family: var(--title_heading);
     
     font-weight: 400;
@@ -50,6 +51,13 @@
     color: var(--white);
     
     margin-bottom: 30px;
+}
+.product__title::after{
+  content: '. . .';
+  display: block;
+  text-align: center;
+ top: 30px;
+  font-weight: 900px;
 }
 .product__label{
     
@@ -66,7 +74,7 @@
     
 }    
 .product__box{
-    
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,7 +111,7 @@
     align-items: center;
     border-radius: 50%;
     background-color: var(--white);
-    border-color: var(--white);
+    border-color: transparent;
 }
 
 .product__points{
@@ -124,7 +132,7 @@
 // }
 /* 1x screens, default value, mobile image */
 .product__box_first-color::before {
-    
+    position: absolute;
     display: block;
     content: "";
     background-image: url(../images/products/mobile/pink_ice_cream.png);
@@ -135,7 +143,8 @@
    
      top: 0;
      left: 0;
-     transform: translateY(-50%);
+     transform: translateY(-50%) translateX(16px);
+     margin-bottom: 22px;
     
 
 }
@@ -150,6 +159,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 .product__box_second-color::before {
+   position: absolute;
     display: block;
     content: "";
     background-image: url(../images/products/mobile/ice_coffee.png);
@@ -158,7 +168,8 @@ screen and (min-resolution: 2dppx) {
     height: 252px;
      top: 0;
      left: 0;
-     transform: translateY(-50%);
+     transform: translateY(-50%) translateX(16px);
+     margin-bottom: 22px;
      
  }   
  @media screen and (min-device-pixel-ratio: 2),
@@ -170,6 +181,7 @@ screen and (min-resolution: 2dppx) {
  }
 
 .product__box_third-color::before {
+   position: absolute;
    display: block;
    content: "";
    background-image: url(../images/products/mobile/milkshakes.png);
@@ -178,7 +190,8 @@ screen and (min-resolution: 2dppx) {
    height: 252px;
    top: 0;
    left: 0;
-   transform: translateY(-50%);
+   transform: translateY(-50%) translateX(16px);
+   margin-bottom: 22px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -193,7 +206,7 @@ screen and (min-resolution: 2dppx) {
 padding-bottom: 112px;
     }
     .product__box_first-color::before {
-     
+      
       
       background-image: url(../images/products/tablet/pink_ice_cream.png);
 
@@ -202,6 +215,7 @@ padding-bottom: 112px;
       top: 0;
       left: 0;
       transform: translateY(-50%);
+      margin-bottom: 30px;
 
     }
 
@@ -224,6 +238,7 @@ padding-bottom: 112px;
       top: 0;
       left: 0;
       transform: translateY(-50%);
+      margin-bottom: 30px;
 
     }
 
@@ -244,6 +259,7 @@ padding-bottom: 112px;
    top: 0;
    left: 0;
    transform: translateY(-50%);
+   margin-bottom: 30px;
 
  }
 
@@ -283,14 +299,28 @@ padding-bottom: 112px;
         margin-top: 20px;
     }
     .product__box{
+      position: relative;
         width: 220px;
         flex-grow: 1;
     }
    
 }
 @media screen and (min-width: 1080px){
-    
-    
+  .advertising{
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .title-name{
+    margin-bottom: 260px;
+    font-size: 58px;
+    line-height: 1.14;
+  }
+    .product__label{
+      margin-bottom: 62px;
+    }
+    .product__box{
+      padding-bottom: 50px;
+    }
     .price-list {
       padding-bottom: 119px;
       padding-top: 127px;
@@ -309,15 +339,19 @@ padding-bottom: 112px;
 }
  .product__box_first-color::before {
 
-
+  
    background-image: url(../images/products/desktop/pink_ice_cream.png);
 
    width: 335px;
    height: 335px;
    top: 0;
    left: 0;
-   transform: translateY(-50%);
+   transform: translateY(-65%);
+   margin-bottom: 38px;
 
+ }
+ .product__title {
+   padding-top: 162px;
  }
 
  /* 2x screens, retina,  image */
@@ -339,7 +373,8 @@ padding-bottom: 112px;
    height: 335px;
    top: 0;
    left: 0;
-   transform: translateY(-50%);
+   transform: translateY(-65%);
+   margin-bottom: 38px;
 
  }
 
@@ -360,7 +395,8 @@ padding-bottom: 112px;
    height: 335px;
    top: 0;
    left: 0;
-   transform: translateY(-50%);
+   transform: translateY(-65%);
+   margin-bottom: 38px;
 
  }
 
