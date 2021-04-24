@@ -1,0 +1,246 @@
+.making {
+  background-color: var(--section_background);
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 55%;
+
+  @media screen and (max-width: 729px) {
+    background-image: url('../images/about/mobile/milk.png');
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/about/mobile/milk@2.png');
+    }
+  }
+
+  @media screen and (min-width: 1080px) {
+    background-image: url('../images/about/desktop/milk.png');
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/about/desktop/milk@2.png');
+    }
+  }
+}
+
+.about__lable {
+  margin-bottom: 15px;
+
+  font-family: var(--title_heading);
+  font-size: 18px;
+  line-height: 1.17;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffa5ba;
+
+  @media screen and (min-width: 730px) {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+
+  @media screen and (min-width: 1080px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
+
+.about__title {
+  margin-bottom: 25px;
+
+  font-family: var(--title_heading);
+  font-size: 34px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--accent_color);
+
+  @media screen and (min-width: 730px) {
+    font-size: 48px;
+    line-height: 1.15;
+  }
+
+  @media screen and (min-width: 1080px) {
+    font-size: 58px;
+    line-height: 1.14;
+    letter-spacing: 0.06em;
+  }
+}
+
+.about__wrapper {
+  margin-bottom: 45px;
+  @media screen and (min-width: 730px) {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 65px;
+  }
+  @media screen and (min-width: 1080px) {
+    margin-bottom: 40px;
+  }
+}
+
+.about__image {
+  //   margin-bottom: 46px;
+
+  @media screen and (min-width: 730px) {
+    margin-right: 17px;
+  }
+
+  @media screen and (min-width: 1080px) {
+    margin-right: 74px;
+  }
+}
+
+.about__list-wrapper {
+  @media screen and (max-width: 729px) {
+    padding-left: 30px;
+  }
+}
+
+.about__list-item {
+  &:first-child {
+    width: 240px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+
+    font-weight: 500;
+    line-height: 1.62;
+
+    color: var(--black);
+
+    @media screen and (min-width: 730px) {
+      width: 360px;
+      margin-top: 35px;
+      margin-bottom: 25px;
+
+      font-size: 14px;
+      line-height: 1.76;
+    }
+
+    @media screen and (min-width: 1080px) {
+      width: 400px;
+      margin-top: 55px;
+      margin-bottom: 35px;
+
+      font-size: 16;
+      line-height: 1.76;
+    }
+  }
+
+  margin-bottom: 17px;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.about__button {
+  min-width: 176px;
+  height: 44px;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  background-color: var(--white);
+
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: var(--accent_color);
+  text-align: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background: #ecebeb;
+  }
+
+  @media screen and (min-width: 730px) {
+    margin-top: 40px;
+  }
+
+  @media screen and (min-width: 1080px) {
+    margin-top: 45px;
+  }
+}
+
+.about__button-icon {
+  margin-left: 14px;
+  width: 5px;
+  height: 8px;
+}
+
+.advantages__list {
+  @media screen and (min-width: 740px) {
+    display: flex;
+  }
+}
+.advantages__item {
+  @media screen and (min-width: 740px) {
+    margin-right: 80px;
+  }
+  @media screen and (min-width: 1080px) {
+    margin-right: 90px;
+  }
+
+  &::before {
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 730px) {
+      margin-bottom: 36px;
+    }
+    @media screen and (min-width: 1080px) {
+      margin-bottom: 40px;
+    }
+  }
+  &:nth-child(1)::before {
+    content: '';
+    display: block;
+    width: 33px;
+    height: 50px;
+    background-size: 33px 50px;
+    fill: #ffa5ba;
+    background-image: url('../images/svg-icon/milk.svg');
+  }
+  &:nth-child(2)::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    fill: #ffa5ba;
+    background-image: url('../images/svg-icon/fruits.svg');
+  }
+  &:nth-child(3)::before {
+    content: '';
+    display: block;
+    width: 44px;
+    height: 50px;
+    background-size: 44px 50px;
+    fill: #ffa5ba;
+    background-image: url('../images/svg-icon/candy.svg');
+  }
+}
+
+.advantages__item-quantity {
+  display: block;
+
+  margin-bottom: 15px;
+
+  font-family: var(--title_heading);
+  font-size: 36px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--accent_color);
+}
+
+.advantages__item-description {
+  font-weight: 700;
+  line-height: 1.7;
+
+  color: #000000;
+
+  @media screen and (max-width: 739px) {
+    margin-bottom: 38px;
+  }
+}
