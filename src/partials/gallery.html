@@ -1,5 +1,22 @@
-<section>
+<section class="gallery">
   <div class="container">
-    <h2 class="visually-hidden">gallery</h2>
+    <h2 class="title visually-hidden">gallery</h2>
+
+    <picture>
+      <source srcset="
+                                    ./images/gallery/desktop/gallery.png 1x,
+                                    ./images/gallery/desktop/gallery@2.png 2x" media="(min-width: 1280px)" />
+    
+      <source srcset="
+                                    ./images/gallery/tablet/gallery.png 1x,
+                                    ./images/gallery/tablet/gallery@2.png 2x" media="(min-width: 768px)" />
+    
+      <source srcset="
+                                    ./images/gallery/mobile/gallery.png 1x,
+                                    ./images/gallery/mobile/gallery@2.png 2x" media="(min-width: 320px)" />
+    
+      <img class="gallery__img" src="./images/gallery/desktop/gallery.png" alt="Коллаж мороженое">
+    </picture>
   </div>
 </section>
+
