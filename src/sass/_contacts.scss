@@ -1,0 +1,79 @@
+.contacts {
+  background-color: var(--section_background);
+  font-weight: 500;
+  font-size: 12px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--white) 84px,
+    var(--section_background) 0%
+  );
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-wrap: wrap;
+  &__box {
+    background: var(--white);
+    width: 220px;
+    height: 427px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1); // добавити в variables
+    border-radius: 24px;
+    padding: 40px 20px;
+    margin-bottom: 25px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 16px;
+    background: #f0d1a5; // добавити в variables
+    border-radius: 4px;
+
+    line-height: 1.83;
+    color: var(--white);
+    margin-bottom: 22px;
+    &-green {
+      background: var(--card_background_mint);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 130px;
+      height: 16px;
+      border-radius: 4px;
+      line-height: 1.83;
+      color: var(--white);
+      margin-bottom: 22px;
+    }
+  }
+  &__city {
+    line-height: 1.83;
+    color: var(--black);
+    margin-bottom: 10px;
+  }
+  &__desc {
+    margin-bottom: 25px;
+  }
+}
+.work-time {
+  margin-bottom: 10px;
+}
+.schedule {
+  border-top: 1px solid #e1e1e1; // добавити в variables
+  border-bottom: 1px solid #e1e1e1; // добавити в variables
+  padding: 25px 0;
+  line-height: 1.83;
+
+  &__day {
+    color: var(--black);
+  }
+  &__time {
+    color: #ffa5ba; // добавити в variables
+  }
+}
+.contact-link {
+  margin-top: 25px;
+  color: inherit;
+}
