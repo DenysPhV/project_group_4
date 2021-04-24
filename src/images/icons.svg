@@ -7,7 +7,7 @@
 
 
         <!-- трое-точие в карточках -->
-        <symbol id="three_points" viewBox="0 0 139 32">
+        <symbol id="three-points" viewBox="0 0 139 32">
             <path d="M85.333 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
             <path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
             <path d="M138.667 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
@@ -30,19 +30,19 @@
         </symbol>
 
         <!-- группа точек в отзывах -->
-        <symbol id="Group_points" viewBox="0 0 256 32">
+        <symbol id="group-points" viewBox="0 0 256 32">
             <path d="M144 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
             <path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
             <path d="M256 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
         </symbol>
 
         <!-- иконка к главной слайдера -->
-        <symbol id="home_slider" viewBox="0 0 35 32">
+        <symbol id="home-slider" viewBox="0 0 35 32">
             <path d="M34.253 15.613c0.599-0.659 0.541-1.669-0.129-2.255l-14.772-12.926c-0.671-0.586-1.745-0.574-2.402 0.028l-14.822 13.587c-0.656 0.602-0.689 1.611-0.071 2.252l0.372 0.387c0.617 0.642 1.613 0.718 2.224 0.17l1.108-0.992v14.523c0 0.891 0.722 1.613 1.612 1.613h5.778c0.89 0 1.612-0.721 1.612-1.613v-10.16h7.37v10.16c-0.013 0.89 0.624 1.612 1.515 1.612h6.123c0.89 0 1.613-0.722 1.613-1.613v-14.318c0 0 0.306 0.268 0.683 0.6s1.168 0.066 1.767-0.594l0.42-0.462z"></path>
         </symbol>
 
         <!-- круг в слайдере отзыва -->
-        <symbol id="ellipse_slider" viewBox="0 0 32 32">
+        <symbol id="ellipse-slider" viewBox="0 0 32 32">
             <path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
         </symbol>
 
@@ -52,12 +52,21 @@
         </symbol>
 
         <!-- бургер для мобильного меню -->
-        <symbol id="icon-burger" viewBox="0 0 46 32">
-            <path stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.286h45.714"></path>
-            <path stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 16h45.714"></path>
-            <path stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 29.714h45.714"></path>
+        <symbol id="burger" viewBox="0 0 32 32">
+            <path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.133h19.2v-2.133h-19.2v2.133z"></path>
         </symbol>
 
+
+        <!-- крестик для мобильного окна-->
+        <symbol id="icon-close" viewBox="0 0 32 32">
+            <path d="M22.4 10.782l-1.182-1.182-4.685 4.685-4.685-4.685-1.182 1.182 4.685 4.685-4.685 4.685 1.182 1.182 4.685-4.685 4.685 4.685 1.182-1.182-4.685-4.685 4.685-4.685z"></path>
+        </symbol>
+
+
+        <!-- стрелка для кнопок -->
+        <symbol id="icon-arrow" viewBox="0 0 26 32">
+            <path d="M3.542 3.2l16.825 12.8-16.825 12.8"></path>
+        </symbol>
 
     </defs>
 </svg>

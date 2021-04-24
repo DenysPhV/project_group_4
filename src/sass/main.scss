@@ -13,5 +13,19 @@
 // утилиты
 @import './variables';
 @import './visually-hidden';
+
+// компоненты
+@import './title';
+@import './modal';
+@import './btn';
+
+// оформление страници
+@import './header';
+@import './hero';
 //Секция product
-@import './_product';
+@import './product';
+
+@import './mention';
+
+@import './gallery';
+@import './footer';
