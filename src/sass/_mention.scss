@@ -64,10 +64,9 @@
       padding: 20px 50px;
     }
 
-    // &-descr {
-    //   padding-left: 34px;
-    //   padding-right: 34px;
-    // }
+    &-descr {
+      background-image: repeating-linear-gradient(0deg, #e1e1e1 1px 2px, rgba(0, 0, 0, 0) 2px 30px);
+    }
 
     &-inner {
       font-size: 14px;
@@ -81,6 +80,15 @@
     &-wrapper {
       width: 932px;
       // padding: 20px 50px;
+    }
+
+    &-descr {
+      background-image: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0),
+        #e1e1e1 1px 2px,
+        rgba(0, 0, 0, 0) 2px 30px
+      );
     }
 
     &-inner {
