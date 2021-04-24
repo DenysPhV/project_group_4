@@ -28,6 +28,17 @@
   }
 }
 
+.menu__btn-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  background-color: transparent;
+  border: transparent;
+}
+
 .is-open {
   z-index: 5;
   opacity: 1;
