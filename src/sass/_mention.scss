@@ -30,12 +30,31 @@
   }
 
   &-descr {
+    width: 180px;
+    height: 236px;
+    padding-left: 12px;
+    padding-right: 12px;
     background-image: repeating-linear-gradient(
       0deg,
       rgba(0, 0, 0, 0),
       #e1e1e1 1px 2px,
       rgba(0, 0, 0, 0) 2px 30px
     );
+  }
+
+  &-inner {
+    line-height: 2.55;
+  }
+
+  &-inner::before {
+    content: '';
+    display: block;
+
+    width: 54px;
+    height: 40px;
+    fill: black;
+
+    background-image: url('../images/svg-icon/quotes.svg#quotes');
   }
 
   &-site {
@@ -65,11 +84,15 @@
     }
 
     &-descr {
-      background-image: repeating-linear-gradient(0deg, #e1e1e1 1px 2px, rgba(0, 0, 0, 0) 2px 30px);
+      width: 524px;
+      height: 85px;
+      padding-left: 32px;
+      padding-right: 32px;
     }
 
     &-inner {
       font-size: 14px;
+      line-height: 2.16;
     }
   }
 }

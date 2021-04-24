@@ -165,8 +165,10 @@
 
 .about__button-icon {
   margin-left: 14px;
-  width: 5px;
-  height: 8px;
+  width: 6px;
+  height: 9px;
+
+  fill: var(--accent_color);
 }
 
 .advantages__list {
@@ -183,6 +185,7 @@
   }
 
   &::before {
+    content: '';
     margin-bottom: 16px;
 
     @media screen and (min-width: 730px) {
@@ -199,8 +202,9 @@
     height: 50px;
     background-size: 33px 50px;
     fill: #ffa5ba;
-    background-image: url('../images/svg-icon/milk.svg');
+    background-image: url('../images/svg-icon/quotes.svg');
   }
+
   &:nth-child(2)::before {
     content: '';
     display: block;
@@ -240,7 +244,7 @@
 
   color: #000000;
 
-  @media screen and (max-width: 739px) {
+  @media screen and (max-width: 729px) {
     margin-bottom: 38px;
   }
 }
