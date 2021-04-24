@@ -1,5 +1,5 @@
 .mention-reviews {
-  padding-top: var(--section-pt);
+  padding-top: 80px;
   padding-bottom: var(--section-pb);
 }
 
@@ -17,6 +17,10 @@
 
 .client-descr {
   margin-bottom: 30px;
+
+  color: var(--black);
+  font-weight: 500;
+
   line-height: 255%;
 
   padding: 45px 50px 20px;
@@ -25,8 +29,11 @@
 }
 
 .client-substrate {
-  width: 180px;
-  height: 217px;
+  width: 157px;
+
+  margin-left: -20px;
+  margin-right: -20px;
+
   background-image: linear-gradient(
     0deg,
     rgba(225, 225, 225, 1) 0%,
@@ -71,4 +78,25 @@
 
 .ellipse-slider {
   fill: #d9d9d9;
+}
+
+// tablet
+@media screen and (min-width: 730px) {
+  .client-descr {
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    line-height: 216%;
+  }
+
+  .client-substrate {
+    width: 460px;
+  }
+}
+
+// desktop
+@media screen and (min-width: 1080px) {
+  .client-substrate {
+    width: 750px;
+  }
 }
