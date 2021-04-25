@@ -1,4 +1,4 @@
-.price-list{
+.price{
     padding-top: 121px;
     padding-bottom: 98px;
 }
@@ -196,7 +196,7 @@ screen and (min-resolution: 2dppx) {
   }
 }
 @media screen and (min-width: 730px){
-    .price-list{
+    .price{
 padding-bottom: 112px;
     }
      .product__label {
@@ -331,7 +331,7 @@ padding-bottom: 112px;
     .product__box{
       padding-bottom: 50px;
     }
-    .price-list {
+    .price {
       padding-bottom: 119px;
       padding-top: 127px;
     }
