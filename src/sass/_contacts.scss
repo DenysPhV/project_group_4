@@ -7,9 +7,10 @@
 
 .contact-list {
   display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 3 - 20px);
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   margin-bottom: 54px;
   &__box {
     background: var(--white);
