@@ -29,4 +29,15 @@
 
   // переход для ховера и фокуса
   --main-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  // тень контактов
+  // цвет линии
+  // цвет времени
+  // акцент кнопки
+  // кнопка контактов
+  --shadow_contacts: rgba(212, 20, 67, 0.1);
+  --border_clr: #e1e1e1;
+  --time-clr: #ffa5ba;
+  --accent-btn: #ecebeb;
+  --contact-btn: #d41342;
 }
