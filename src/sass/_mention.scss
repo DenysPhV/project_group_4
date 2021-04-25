@@ -47,14 +47,14 @@
   }
 
   &-inner::before {
-    content: 'beffor';
+    content: '';
     display: block;
 
     width: 54px;
     height: 40px;
-    fill: black;
 
-    background-image: url('../images/svg-icon/quotes.svg#quotes');
+    background-image: url('../images/svg-icon/quotes.svg');
+    background-size: 54px 40px;
   }
 
   &-site {
