@@ -4,17 +4,14 @@
   padding-left: 15px;
   padding-right: 15px;
 
+  outline: 1px solid red;
 
-
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 730px) {
     .page-footer > & {
       display: flex;
       justify-content: space-between;
     }
   }
-
-  outline: 1px solid red;
-
 }
 
 // tablet

@@ -18,6 +18,7 @@
   --accent_color: #d41443;
   --primary_accent: #c7133e;
   --main_text: #907e82;
+  --border: #e1e1e1;
 
   // заголовки секций
   --title_heading: 'Titan One', sans-serif;
@@ -36,7 +37,7 @@
   // акцент кнопки
   // кнопка контактов
   --shadow_contacts: rgba(212, 20, 67, 0.1);
-  --border_clr: #e1e1e1;
+  --border_clr: var(--border);
   --time-clr: #ffa5ba;
   --accent-btn: #ecebeb;
   --contact-btn: #d41342;

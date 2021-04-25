@@ -64,9 +64,8 @@
 
 
         <!-- стрелка для кнопок -->
-        <symbol id="icon-arrow" viewBox="0 0 26 32">
-            <path d="M3.542 3.2l16.825 12.8-16.825 12.8"></path>
+        <symbol id="icon-arrow" viewBox="0 0 18 32">
+            <path d="M0 27.429l11.429-11.429-11.429-11.429 2.286-4.571 16 16-16 16-2.286-4.571z"></path>
         </symbol>
-
     </defs>
 </svg>
