@@ -2,21 +2,23 @@
   <div class="container">
     <h2 class="title visually-hidden">gallery</h2>
 
-    <picture>
-      <source srcset="
-                                    ./images/gallery/desktop/gallery.png 1x,
-                                    ./images/gallery/desktop/gallery@2.png 2x" media="(min-width: 1280px)" />
-    
-      <source srcset="
-                                    ./images/gallery/tablet/gallery.png 1x,
-                                    ./images/gallery/tablet/gallery@2.png 2x" media="(min-width: 768px)" />
-    
-      <source srcset="
-                                    ./images/gallery/mobile/gallery.png 1x,
-                                    ./images/gallery/mobile/gallery@2.png 2x" media="(min-width: 320px)" />
-    
-      <img class="gallery__img" src="./images/gallery/desktop/gallery.png" alt="Коллаж мороженое">
+    <picture class="gallery-img">
+      <source
+        srcset="./images/gallery/desktop/gallery.jpg 1x, ./images/gallery/desktop/gallery@2.jpg 2x"
+        media="(min-width: 1080px)"
+      />
+
+      <source
+        srcset="./images/gallery/tablet/gallery.jpg 1x, ./images/gallery/tablet/gallery@2.jpg 2x"
+        media="(min-width: 730px)"
+      />
+
+      <source
+        srcset="./images/gallery/mobile/gallery.jpg 1x, ./images/gallery/mobile/gallery@2.jpg 2x"
+        media="(min-width: 320px)"
+      />
+
+      <img src="./images/gallery/mobile/gallery.jpg" alt="Коллаж мороженое" />
     </picture>
   </div>
 </section>
-

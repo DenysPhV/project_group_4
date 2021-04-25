@@ -17,10 +17,17 @@
 // компоненты
 @import './title';
 @import './modal';
+@import './btn';
 
 // оформление страници
-@import './mention';
+@import './header';
+@import './hero';
+//Секция product
+@import './product';
 
+@import './making';
+@import './mention';
+@import './contacts';
 @import './gallery';
 @import './footer';
 @import './social-list';

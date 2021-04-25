@@ -1,3 +1,23 @@
 .gallery {
   background-image: linear-gradient(180deg, var(--section_background) 40%, var(--white) 41%);
 }
+
+.gallery-img {
+  display: flex;
+  justify-content: center;
+  max-width: 320px;
+}
+
+// tablet
+@media screen and (min-width: 730px) {
+  .gallery-img {
+    max-width: 730px;
+  }
+}
+
+// tablet
+@media screen and (min-width: 1080px) {
+  .gallery-img {
+    max-width: 1280px;
+  }
+}
