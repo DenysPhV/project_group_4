@@ -64,9 +64,9 @@
 
 
         <!-- стрелка для кнопок -->
-        <symbol id="icon-arrow" viewBox="0 0 26 32">
-            <path d="M3.542 3.2l16.825 12.8-16.825 12.8"></path>
-        </symbol>
+        <symbol id="icon-arrow" viewBox="0 0 19 32">
+<path fill="none" stroke="inherit"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l12.8 12.8-12.8 12.8"></path>
+</symbol>
 
     </defs>
 </svg>
