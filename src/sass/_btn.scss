@@ -12,7 +12,7 @@
   cursor: pointer;
   color: var(--accent_color);
   background-color: var(--white);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--main-transition);
 
   &:hover,
   &:focus {
@@ -22,6 +22,7 @@
     margin-left: 15px;
     width: 10px;
     height: 10px;
+    fill: var(--accent_color);
   }
 }
 .contact-btn {
@@ -56,20 +57,20 @@
     background: var(--white);
     border-radius: 22px;
     margin-bottom: 66px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--main-transition);
     &:hover,
     &:focus {
       background-color: var(--accent-btn);
     }
   }
   &__arrow {
-    width: 5px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     margin-left: 10px;
-    stroke: var(--white);
+    fill: var(--white);
   }
   &__franchise &__arrow {
-    stroke: var(--accent_color);
+    fill: var(--accent_color);
   }
 }
 
