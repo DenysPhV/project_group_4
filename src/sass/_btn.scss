@@ -22,6 +22,7 @@
     margin-left: 15px;
     width: 10px;
     height: 10px;
+    fill: var(--accent_color);
   }
 }
 .contact-btn {
@@ -63,13 +64,13 @@
     }
   }
   &__arrow {
-    width: 5px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     margin-left: 10px;
-    stroke: var(--white);
+    fill: var(--white);
   }
   &__franchise &__arrow {
-    stroke: var(--accent_color);
+    fill: var(--accent_color);
   }
 }
 
