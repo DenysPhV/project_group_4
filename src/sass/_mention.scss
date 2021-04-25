@@ -61,26 +61,14 @@
   }
 
   &-inner {
-    display: flex;
-
-    line-height: 2.55;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 2.5;
   }
-
-  // &-inner::before {
-  //   content: '';
-  //   display: block;
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-
-  //   width: 54px;
-  //   height: 40px;
-
-  //   background-image: url('../images/svg-icon/quotes.svg');
-  //   background-size: 54px 40px;
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  // }
 
   &-site {
     margin-bottom: 30px;
@@ -151,7 +139,7 @@
 
     &-inner {
       font-size: 16px;
-      line-height: 1.15;
+      line-height: 1.9;
     }
 
     &-site {
