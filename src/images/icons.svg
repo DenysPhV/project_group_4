@@ -52,8 +52,10 @@
         </symbol>
 
         <!-- бургер для мобильного меню -->
-        <symbol id="burger" viewBox="0 0 32 32">
-            <path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.133h19.2v-2.133h-19.2v2.133z"></path>
+        <symbol id="icon-burger" viewBox="0 0 46 32">
+            <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.286h45.714"></path>
+            <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 16h45.714"></path>
+            <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 29.714h45.714"></path>
         </symbol>
 
 
@@ -65,8 +67,8 @@
 
         <!-- стрелка для кнопок -->
         <symbol id="icon-arrow" viewBox="0 0 26 32">
-            <path d="M3.542 3.2l16.825 12.8-16.825 12.8"></path>
+            <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.542 3.2l16.825 12.8-16.825 12.8"></path>
         </symbol>
-
+        
     </defs>
 </svg>

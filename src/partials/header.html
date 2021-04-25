@@ -10,12 +10,9 @@
           <img src="./images/logo.png" alt="logotype" />
         </picture>
       </a>
-      <div class="menu">
-        <!-- data-menu после правки вернуть согласно разметки -->
-        <button type="button" class="menu__btn-close">
-          <!-- data-menu-close после правки вернуть согласно разметки-->
-          <svg width="100%" height="100%">
-            <!-- размер такой чтобы не поткрять -->
+      <div class="menu" data-menu>
+        <button type="button" class="menu__btn-close" data-menu-close>
+          <svg>
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -51,11 +48,10 @@
     </button>
     <button type="button" class="btn-tablet">
       Buy now
-      <svg width="4px" heigth="8px">
+      <svg>
         <use href="./images/icons.svg#icon-arrow"></use>
       </svg>
     </button>
   </div>
 
-  <script src="./js/mobile-menu.js"></script>
 </header>

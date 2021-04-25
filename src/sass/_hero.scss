@@ -1,11 +1,59 @@
 .hero {
   background-color: #ffb8ca;
+
+  padding-top: 83px;
+  padding-left: 36px;
+  padding-bottom: 76px;
+
+  &__container-description {
+    width: 218px;
+    position: absolute;
+    top: 193px;
+    left: 15px;
+  }
+  &__title {
+    font-family: var(--title_heading);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+  &__accent-text {
+    font-size: 48px;
+    line-height: 0.965;
+    color: var(--accent_color);
+  }
+  &__btn {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    min-width: 62px;
+    min-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 19px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+    &-theme-light {
+      color: var(--accent_color);
+      background-color: var(--white);
+    }
+    &-theme-dark {
+      color: var(--white);
+      background-color: var(--accent_color);
+    }
+  }
 }
 
 .circle {
-  position: relative;
-  top: 83px;
-  left: 36px;
   border-radius: 50%;
   width: 344px;
   height: 344px;
@@ -14,7 +62,6 @@
 
 .ice-cream {
   position: absolute;
-  z-index: 1;
   top: 92px;
   right: 32px;
 }

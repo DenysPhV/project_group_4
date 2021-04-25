@@ -1,36 +1,24 @@
+
 <section class="hero">
-  <div class="container">
-    <div>
-      <title class="title">
-        ice cream made with <span class="title__accent-text">passion</span>
-      </title>
-      <button type="button">Products</button>
-      <button type="button">How it’s made?</button>
-    </div>
+  <div class="container hero__container">
 
-    <div>
-      <p>cafes</p>
-      <p>food trucks</p>
+    <div class="circle">
     </div>
-
-    <div class="circle"></div>
 
     <div class="ice-cream">
       <picture>
-        <source
-          srcset="./images/hero/desktop/ice_cream.png 1x, ./images/hero/desktop/ice_cream@2.png 2x"
-          media="(min-width: 1080px)"
-        />
-        <source
-          srcset="./images/hero/tablet/ice_cream.png 1x, ./images/hero/tablet/ice_cream@2.png 2x"
-          media="(min-width: 730px)"
-        />
-        <source
-          srcset="./images/hero/mobile/ice_cream.png 1x, ./images/hero/mobile/ice_cream@2.png 2x"
-          media="(min-width: 320px)"
-        />
+        <source srcset="./images/hero/desktop/ice_cream.png 1x, ./images/hero/desktop/ice_cream@2.png 2x" media="(min-width: 1080px)"/>
+        <source srcset="./images/hero/tablet/ice_cream.png 1x, ./images/hero/tablet/ice_cream@2.png 2x" media="(min-width: 730px)"/>
+        <source srcset="./images/hero/mobile/ice_cream.png 1x, ./images/hero/mobile/ice_cream@2.png 2x" media="(min-width: 320px)"/>
         <img src="./images/hero/mobile/ice_cream.png" alt="ice cream" />
       </picture>
     </div>
+    
+    <div class="hero__container-description">
+      <h1 class="hero__title">ice cream made with <span class="hero__accent-text">passion</span></h1>
+      <button type="button" class="hero__btn hero__btn-theme-dark">Products</button>
+      <button type="button" class="hero__btn hero__btn-theme-light">How it’s made?</button>
+    </div>
+
   </div>
 </section>
