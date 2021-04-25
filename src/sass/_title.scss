@@ -1,5 +1,5 @@
 .title {
-  font-family: Titan One;
+  font-family: var(--title_heading);
   font-weight: 400;
   font-size: 58px;
   line-height: 1.14;
@@ -12,5 +12,6 @@
 
   &_footer {
     text-align: left;
+    margin-bottom: 0;
   }
 }
