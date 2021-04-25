@@ -81,6 +81,11 @@
 
   &-site {
     margin-bottom: 30px;
+
+    color: var(--black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
   }
 }
 
@@ -108,6 +113,10 @@
       font-size: 14px;
       line-height: 2.15;
     }
+
+    &-site {
+      font-size: 16px;
+    }
   }
 }
 
@@ -127,6 +136,10 @@
     &-inner {
       font-size: 16px;
       line-height: 1.15;
+    }
+
+    &-site {
+      font-size: 18px;
     }
   }
 }
