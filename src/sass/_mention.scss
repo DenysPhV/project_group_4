@@ -20,7 +20,7 @@
 
   &-wrapper {
     width: 280px;
-    padding: 20px 50px;
+    padding: 43px 50px 20px;
     margin-bottom: 34px;
 
     color: var(--black);
@@ -47,6 +47,7 @@
 
   &-descr {
     position: relative;
+
     width: 180px;
     height: 236px;
     padding-left: 12px;
@@ -60,6 +61,8 @@
   }
 
   &-inner {
+    display: flex;
+
     line-height: 2.55;
   }
 
@@ -92,6 +95,19 @@
 .group-points {
   margin-bottom: 18px;
   fill: var(--primary_accent);
+
+  width: 32px;
+  height: 4px;
+}
+
+.quotes {
+  position: absolute;
+
+  top: -17px;
+  left: 10px;
+  fill: var(--border);
+  width: 54px;
+  height: 40px;
 }
 
 // tablet
