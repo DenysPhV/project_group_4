@@ -1,0 +1,22 @@
+.slider-nav {
+  display: flex;
+}
+
+.slider-nav__item {
+  &:not(:last-child) {
+    margin-right: 18px;
+  }
+}
+
+.slider-nav__link {
+  fill: #d9d9d9;
+  transition: fill var(--main-transition);
+  &:hover,
+  &focus {
+    fill: var(--accent_color);
+  }
+}
+
+.active-link {
+  fill: #d31342;
+}

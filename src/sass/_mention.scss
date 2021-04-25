@@ -67,14 +67,12 @@
 .group-points {
   margin-bottom: 18px;
   fill: var(--primary_accent);
-}
 
-.home-slider {
-  fill: #d31342;
-}
-
-.ellipse-slider {
-  fill: #d9d9d9;
+  &::before {
+    content: '';
+    display: block;
+    background-image: url('../images/icons.svg#group-points');
+  }
 }
 
 // tablet
