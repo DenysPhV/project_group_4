@@ -16,7 +16,7 @@
     background: var(--white);
     width: 220px;
     height: 427px;
-    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1); // добавити в variables
+    box-shadow: 0px 8px 30px var(--shadow_contacts);
     border-radius: 24px;
     padding: 40px 20px;
   }
@@ -29,7 +29,7 @@
     justify-content: center;
     width: 80px;
     height: 16px;
-    background: #f0d1a5; // добавити в variables
+    background: var(--card_background_coffee);
     border-radius: 4px;
 
     line-height: 1.83;
@@ -61,8 +61,8 @@
   margin-bottom: 10px;
 }
 .schedule {
-  border-top: 1px solid #e1e1e1; // добавити в variables
-  border-bottom: 1px solid #e1e1e1; // добавити в variables
+  border-top: 1px solid var(--border_clr);
+  border-bottom: 1px solid var(--border_clr);
   padding: 25px 0;
   line-height: 1.83;
 
@@ -70,7 +70,7 @@
     color: var(--black);
   }
   &__time {
-    color: #ffa5ba; // добавити в variables
+    color: var(--time-clr);
   }
 }
 .contact-link {
