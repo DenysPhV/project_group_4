@@ -5,6 +5,12 @@
   padding-right: 15px;
 
   //outline: 1px solid red;
+  @media screen and (min-width: 768px) {
+    .page-footer > & {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }
 
 // tablet
