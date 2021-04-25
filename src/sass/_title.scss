@@ -1,16 +1,80 @@
 .title {
-  font-family: Titan One;
-  font-weight: 400;
-  font-size: 58px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-family: var(--title_heading);
   color: var(--accent_color);
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
 
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
-  &_footer {
+  .page-footer & {
     text-align: left;
+    margin-bottom: 100px;
+  }
+}
+
+.suptitle {
+  font-family: var(--title_heading);
+  color: #ffa5ba;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 34px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    max-width: 200px;
+  }
+
+  .suptitle {
+    font-size: 18px;
+    line-height: 1.17;
+    max-width: 235px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+    line-height: 1.14;
+    letter-spacing: 0.06em;
+    margin-bottom: 20px;
+
+    .page-footer & {
+      max-width: 340px;
+    }
+  }
+
+  .suptitle {
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title {
+    font-size: 58px;
+    line-height: 1.14;
+    letter-spacing: 0.06em;
+
+    .page-footer & {
+      max-width: 550px;
+    }
+  }
+
+  .suptitle {
+    font-size: 30px;
+    line-height: 1.13;
+    letter-spacing: 0.04em;
+
+    .page-footer & {
+      max-width: 550px;
+    }
   }
 }

@@ -1,0 +1,28 @@
+.social-icons-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+
+  border-radius: 50%;
+  background-color: #fea5bb;
+
+  .social-icons-list__item:hover &,
+  .social-icons-list__item:focus & {
+    background-color: var(--accent_color);
+  }
+}
+
+.social-icons-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 45px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 50px;
+  }
+}
+
+.social-icons-list__item:not(:last-child) {
+  margin-right: 24px;
+}
