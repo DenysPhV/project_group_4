@@ -7,6 +7,8 @@
     flex-direction: column;
     align-items: center;
 
+    position: relative;
+
     text-align: center;
   }
 }
@@ -19,7 +21,7 @@
   &-wrapper {
     width: 280px;
     padding: 20px 50px;
-    margin-bottom: 30px;
+    margin-bottom: 34px;
 
     color: var(--black);
     font-weight: 500;
@@ -29,7 +31,21 @@
     background-color: #fafafa;
   }
 
+  &-wrapper::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 4px;
+    background-image: url('../images/icons.svg#group-points');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   &-descr {
+    position: relative;
     width: 180px;
     height: 236px;
     padding-left: 12px;
@@ -49,6 +65,9 @@
   &-inner::before {
     content: '';
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     width: 54px;
     height: 40px;
@@ -67,12 +86,6 @@
 .group-points {
   margin-bottom: 18px;
   fill: var(--primary_accent);
-
-  &::before {
-    content: '';
-    display: block;
-    background-image: url('../images/icons.svg#group-points');
-  }
 }
 
 // tablet
