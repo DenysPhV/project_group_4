@@ -11,44 +11,70 @@
         </picture>
       </a>
 
-      <button type="button" class="burger-btn" data-menu-button>
-        <svg class="burger-btn__icon">
+      <button type="button" class="burger" data-menu-button>
+        <svg class="burger__icon">
           <use href="./images/icons.svg#icon-burger"></use>
         </svg>
       </button>
-
-      <div class="menu" data-menu>
-        <button type="button" class="menu__btn-close" data-menu-close>
-          <svg class="menu__icon-close">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-
-        <ul class="menu__list list">
-          <li class="menu__item">
-            <a href="./index.html" class="menu__link link active-link">Home</a>
-          </li>
-          <li class="menu__item">
-            <a href="" class="menu__link link">About us</a>
-          </li>
-          <li class="menu__item">
-            <a href="" class="menu__link link">How it’s made?</a>
-          </li>
-          <li class="menu__item">
-            <a href="" class="menu__link link">Our products</a>
-          </li>
-          <li class="menu__item">
-            <a href="" class="menu__link link">Contact</a>
-          </li>
-        </ul>
-      </div>
+      <!-- menu navigation-->
+      <ul class="navigation__list list">
+        <li class="navigation__item">
+          <a href="./index.html" class="navigation__link link active-link">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">About us</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">How it’s made?</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">Our products</a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link link">Contact</a>
+        </li>
+      </ul>
     </nav>
 
-    <button type="button" class="btn-tablet">
+    <button type="button" class="btn nav-button">
       Buy now
       <svg class="btn__icon">
         <use href="./images/icons.svg#icon-arrow"></use>
       </svg>
     </button>
+
+    <!-- mobile menu -->
+    <div class="mobile-menu" data-menu>
+      <button type="button" class="mobile-menu__btn-close" data-menu-close>
+        <svg class="mobile-menu__cross">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <button type="button" class="btn">
+        Buy now
+        <svg class="btn__icon">
+          <use href="./images/icons.svg#icon-arrow"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu__list list">
+        <li class="mobile-menu__item">
+          <a href="./index.html" class="menu__link link active-link">Home</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="" class="mobile-menu__link">About us</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="" class="mobile-menu__link">How it’s made?</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="" class="mobile-menu__link">Our products</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="" class="mobile-menu__link">Contact</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
