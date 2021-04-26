@@ -6,6 +6,8 @@
 
   & .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     padding-top: 6px;
     padding-bottom: 6px;
@@ -22,10 +24,6 @@
       padding-top: 37px;
     }
   }
-
-  .burger-btn {
-    margin-left: 290px;
-  }
 }
 
 // @media screen and (min-width: 1080px) {
@@ -37,21 +35,7 @@
 //     display: none;
 //   }
 
-//   .menu {
-//     min-width: 478px;
-//     &__btn-close {
-//       display: none;
-//     }
-
-//     &__list {
-//       display: flex;
-//       align-items: center;
-//       justify-content: space-between;
-//     }
-//     &__item {
-//       padding: 5px 0px;
-//     }
-//   }
+//
 //   .btn-tablet {
 //     margin-left: 110px;
 //   }

@@ -1,8 +1,9 @@
 .hero {
   background-color: var(--hero_background);
 
-  &__container {
+  & .container {
     position: relative;
+    overflow: hidden;
     padding-top: 82px;
     padding-left: 30px;
     padding-bottom: 76px;
@@ -63,7 +64,6 @@
 }
 
 .circle {
-  // position: absolute;
   border-radius: 50%;
   width: 346px;
   height: 344px;
@@ -75,19 +75,22 @@
   top: 92px;
   right: 27px;
 }
+
 .bio-eco {
   display: none;
 }
+
 .girl {
   display: none;
 }
+
 .box {
   display: none;
 }
 
 @media screen and (min-width: 730px) {
   .hero {
-    &__container {
+    & .container {
       padding-top: 31px;
       padding-left: 278px;
       padding-bottom: 46px;
@@ -194,7 +197,9 @@
 
 @media screen and (min-width: 1080px) {
   .hero {
-    &__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    & .container {
       padding-top: 52px;
       padding-left: 375px;
       padding-bottom: 75px;
