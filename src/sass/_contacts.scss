@@ -66,6 +66,8 @@
 
   &__locations {
     width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     font-weight: 700;
     font-size: 16px;
@@ -79,6 +81,8 @@
   }
   &__franchise {
     width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     font-weight: 700;
     font-size: 16px;
@@ -101,7 +105,7 @@
     width: 6px;
     height: 10px;
     margin-left: 15px;
-    stroke: var(--white);
+    fill: var(--white);
   }
   &__franchise &__arrow {
     stroke: var(--accent_color);
