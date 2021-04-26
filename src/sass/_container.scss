@@ -3,21 +3,17 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  // outline: 1px solid red;
-
-  @media screen and (min-width: 730px) {
-    .page-footer > & {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
 }
 
 // tablet
 @media screen and (min-width: 730px) {
   .container {
     width: 730px;
+  }
+
+  .page-footer > & {
+    display: flex;
+    justify-content: space-between;
   }
 }
 

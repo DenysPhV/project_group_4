@@ -1,20 +1,285 @@
 .hero {
-  background-color: #ffb8ca;
+  background-color: var(--hero_background);
+
+  &__container {
+    position: relative;
+    padding-top: 82px;
+    padding-left: 30px;
+    padding-bottom: 76px;
+  }
+
+  &__container-description {
+    width: 218px;
+    position: absolute;
+    top: 193px;
+    left: 15px;
+  }
+  &__title {
+    font-family: var(--title_heading);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+  &__accent-text {
+    font-size: 48px;
+    line-height: 0.965;
+    color: var(--accent_color);
+  }
+  &__btn {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    min-width: 62px;
+    min-height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 19px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+    &-theme-light {
+      color: var(--accent_color);
+      background-color: var(--white);
+      &:hover {
+        background-color: #ecebeb;
+      }
+    }
+    &-theme-dark {
+      color: var(--white);
+      background-color: var(--accent_color);
+      &:hover {
+        background-color: var(--primary_accent);
+      }
+    }
+  }
 }
 
 .circle {
-  position: relative;
-  top: 83px;
-  left: 36px;
   border-radius: 50%;
-  width: 344px;
+  width: 346px;
   height: 344px;
   background-color: #ffa5ba;
 }
 
 .ice-cream {
   position: absolute;
-  z-index: 1;
   top: 92px;
-  right: 32px;
+  right: 27px;
+}
+.bio-eco {
+  display: none;
+}
+.girl {
+  display: none;
+}
+.box {
+  display: none;
+}
+
+@media screen and (min-width: 730px) {
+  .hero {
+    &__container {
+      padding-top: 31px;
+      padding-left: 278px;
+      padding-bottom: 46px;
+    }
+    &__container-description {
+      width: 162px;
+      top: 102px;
+    }
+
+    &__title {
+      font-size: 22px;
+      line-height: 1.13;
+    }
+    &__accent-text {
+      font-size: 34px;
+      line-height: 0.905;
+    }
+    &__btn {
+      margin-top: 20px;
+    }
+  }
+
+  .circle {
+    width: 324px;
+    height: 322px;
+  }
+
+  .ice-cream {
+    top: 63px;
+    right: 228px;
+  }
+  .bio-eco {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 28px;
+    left: 15px;
+
+    &__description {
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      width: 114px;
+      color: var(--white);
+    }
+    &__img {
+      margin-top: 7px;
+      margin-bottom: 6px;
+    }
+  }
+
+  .girl {
+    display: block;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+  }
+  .box {
+    display: block;
+    position: absolute;
+    top: 96px;
+    right: 25px;
+    text-align: right;
+    &__cafes {
+      position: relative;
+      margin-bottom: 13px;
+    }
+    &__food {
+      position: relative;
+    }
+    &__icon-top {
+      width: 16px;
+      height: 16px;
+      fill: var(--white);
+      position: absolute;
+      top: -2px;
+      right: -10px;
+    }
+    &__icon-bottom {
+      width: 16px;
+      height: 16px;
+      fill: var(--white);
+      position: absolute;
+      top: -2px;
+      right: -10px;
+    }
+    &__numbering {
+      position: relative;
+      font-family: var(--title_heading);
+      font-size: 28px;
+      line-height: 1.14;
+      text-transform: uppercase;
+      color: var(--accent_color);
+    }
+    &__description {
+      font-size: 8px;
+      line-height: 1.25;
+      letter-spacing: 0.01em;
+      color: var(--white);
+    }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .hero {
+    &__container {
+      padding-top: 52px;
+      padding-left: 375px;
+      padding-bottom: 75px;
+    }
+    &__container-description {
+      min-width: 277px;
+      top: 171px;
+    }
+    &__title {
+      font-size: 38px;
+      line-height: 1.157;
+    }
+    &__accent-text {
+      font-size: 58px;
+    }
+    &__btn {
+      font-size: 14px;
+      line-height: 1.28;
+      min-height: 40px;
+
+      &:not(:last-child) {
+        margin-right: 17px;
+      }
+    }
+  }
+
+  .circle {
+    width: 538px;
+    height: 538px;
+  }
+  .ice-cream {
+    top: 108px;
+    right: 350px;
+  }
+
+  .ice-cream {
+    top: 108px;
+    right: 350px;
+  }
+  .bio-eco {
+    bottom: 45px;
+    left: 0px;
+
+    &__description {
+      font-size: 14px;
+      line-height: 1.4;
+      width: 200px;
+      margin-left: 30px;
+    }
+    &__img {
+      margin-top: 20px;
+      margin-bottom: 11px;
+      margin-left: 30px;
+    }
+  }
+
+  .girl {
+    right: 9px;
+  }
+
+  .box {
+    top: 116px;
+    right: 15px;
+
+    &__cafes {
+      margin-bottom: 15px;
+    }
+    &__icon-top {
+      width: 30px;
+      height: 30px;
+      top: -4px;
+      right: -15px;
+    }
+    &__icon-bottom {
+      width: 30px;
+      height: 30px;
+      top: -4px;
+      right: -15px;
+    }
+    &__numbering {
+      font-size: 46px;
+      line-height: 1.15;
+    }
+    &__description {
+      font-size: 14px;
+      line-height: 1.28;
+    }
+  }
 }
