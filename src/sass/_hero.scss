@@ -3,7 +3,7 @@
 
   & .container {
     position: relative;
-    overflow: hidden;
+    // overflow: hidden;
     padding-top: 82px;
     padding-left: 30px;
     padding-bottom: 76px;
@@ -197,7 +197,7 @@
 
 @media screen and (min-width: 1080px) {
   .hero {
-    max-width: 1280px;
+    // max-width: 1280px;
     margin: 0 auto;
     & .container {
       padding-top: 52px;
