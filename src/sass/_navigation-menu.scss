@@ -2,11 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  width: 280px;
 }
 
 @media screen and (min-width: 730px) {
+  .navigation {
+    width: 510px;
+  }
   .nav-button {
-    min-width: 186px;
+    min-width: 160px;
+    height: 44px;
   }
 }
 
