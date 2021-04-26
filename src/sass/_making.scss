@@ -131,6 +131,19 @@
   line-height: 1.62;
 }
 
+.about__button {
+  min-width: 176px;
+  height: 44px;
+  border: 1px solid transparent;
+
+  @media screen and (min-width: 730px) {
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 1080px) {
+    margin-top: 45px;
+  }
+}
+
 .advantages__list {
   @media screen and (min-width: 730px) {
     display: flex;
