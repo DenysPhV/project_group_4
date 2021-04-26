@@ -23,43 +23,45 @@
     background-color: var(--accent-btn);
   }
 
-
-   &__icon {
-     margin-left: 15px;
-     width: 6px;
-     height: 10px;
-  fill: var(--accent_color); 
-
+  &__icon {
+    margin-left: 15px;
+    width: 6px;
+    height: 10px;
+    fill: var(--accent_color);
   }
 }
+
 .about {
-&__button {
-  min-width: 176px;
-  height: 44px;
-  border: 1px solid transparent;
-  border-radius: 22px;
-  background-color: var(--white);
+  &__button {
+    min-width: 176px;
+    height: 44px;
+    border: 1px solid transparent;
+    border-radius: 22px;
+    background-color: var(--white);
 
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.31;
-  color: var(--accent_color);
-  text-align: center;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    color: var(--accent_color);
+    text-align: center;
 
-  transition: background-color var(--main-transition);
+    transition: background-color var(--main-transition);
+  }
 
   &:hover,
   &:focus {
     background: var(--accent-btn);
   }
- &__button-icon {
-   margin-left: 15px;
-   width: 6px;
-   height: 10px;
-   fill: var(--accent_color);
- }
+
+  &__button-icon {
+    margin-left: 15px;
+    width: 6px;
+    height: 10px;
+    fill: var(--accent_color);
+  }
 }
+
 .contact-btn {
   display: flex;
   justify-content: center;
@@ -132,6 +134,7 @@
     }
   }
 }
+
 @media screen and (min-width: 1080px) {
   .contact-btn {
     &__locations {
