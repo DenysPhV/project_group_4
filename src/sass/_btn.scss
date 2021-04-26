@@ -19,11 +19,11 @@
     background-color: var(--accent-btn);
   }
 
-  // &__icon {
-  //   margin-left: 15px;
-  //   width: 10px;
-  //   height: 10px;
-  // }
+  &__icon {
+    margin-left: 15px;
+    width: 10px;
+    height: 10px;
+  }
 }
 
 .contact-btn {
@@ -82,6 +82,7 @@
     padding: 10px 43px;
     margin: 0px 34px;
   }
+
   .contact-btn {
     display: flex;
     flex-direction: row;
