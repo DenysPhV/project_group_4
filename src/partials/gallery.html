@@ -3,22 +3,41 @@
     <h2 class="title visually-hidden">gallery</h2>
 
     <picture class="gallery-img">
+
       <source
-        srcset="./images/gallery/desktop/gallery.jpg 1x, ./images/gallery/desktop/gallery@2.jpg 2x"
+      srcset="./images/gallery/desktop/gallery-desctop@1.webp 1x,
+        ./images/gallery/desktop/gallery-desctop@2.webp 2x"
+        media="(min-width: 1080px)" type="image/webp"
+        />
+      <source 
+        srcset="./images/gallery/desktop/gallery-desctop@1.png 1x, 
+        ./images/gallery/desktop/gallery-desctop@2.png 2x" 
         media="(min-width: 1080px)"
-      />
+        />
+
 
       <source
-        srcset="./images/gallery/tablet/gallery.jpg 1x, ./images/gallery/tablet/gallery@2.jpg 2x"
-        media="(min-width: 730px)"
+        srcset="./images/gallery/tablet/gallery-tablet@1.webp 1x, 
+        ./images/gallery/tablet/gallery-tablet@2.webp 2x"
+        media="(min-width: 730px)" type="image/webp"
       />
+      <source 
+        srcset="./images/gallery/tablet/gallery-tablet@1.png 1x, 
+        ./images/gallery/tablet/gallery-tablet@2.png 2x" 
+        media="(min-width: 730px)" />
+
 
       <source
-        srcset="./images/gallery/mobile/gallery.jpg 1x, ./images/gallery/mobile/gallery@2.jpg 2x"
-        media="(min-width: 320px)"
+        srcset="./images/gallery/mobile/gallery-mobile1@1.webp 1x, 
+        ./images/gallery/mobile/gallery-mobile1@2.webp 2x"
+        media="(min-width: 320px)" type="image/webp"
       />
+      <source 
+      srcset="./images/gallery/mobile/gallery-mobile1@1.png 1x, 
+        ./images/gallery/mobile/gallery-mobile1@2.png 2x" 
+        media="(min-width: 320px)" />
 
-      <img src="./images/gallery/mobile/gallery.jpg" alt="Collage with ice cream" />
+      <img src="./images/gallery/desktop/gallery-desctop@1.png" alt="Collage with ice cream" />
     </picture>
   </div>
 </section>
