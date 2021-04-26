@@ -1,3 +1,94 @@
 .page-footer {
   background-color: var(--section_background);
 }
+
+.contact-tel {
+  text-align: right;
+  color: var(--black);
+}
+
+.contakt-tel__link {
+  color: var(--accent_color);
+}
+
+.copyright__text {
+  text-align: center;
+  color: var(--main_text);
+}
+
+// MOBILE
+@media screen and (max-width: 729px) {
+  .page-footer {
+    padding-top: 60px;
+    //padding-bottom: 45px;
+  }
+
+  .contact-tel {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.83;
+    margin-bottom: 40px;
+  }
+
+  .copyright {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid var(--border);
+  }
+
+  .copyright__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.52;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+}
+
+// TABLET
+@media screen and (min-width: 730px) {
+  .page-footer {
+    padding-top: 60px;
+    //padding-bottom: 90px;
+  }
+
+  .contact-tel {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.86;
+  }
+
+  .copyright {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid var(--border);
+  }
+
+  .copyright__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+  }
+}
+
+// DESCTOP
+@media screen and (min-width: 1080px) {
+  .page-footer {
+    padding-top: 80px;
+    //padding-bottom: 95px;
+  }
+
+  .contact-tel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+  }
+
+  .copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid var(--border);
+  }
+}

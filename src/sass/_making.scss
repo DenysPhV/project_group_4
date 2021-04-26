@@ -81,8 +81,6 @@
 }
 
 .about__image {
-  //   margin-bottom: 46px;
-
   @media screen and (min-width: 730px) {
     margin-right: 17px;
   }
@@ -123,7 +121,7 @@
       margin-top: 55px;
       margin-bottom: 35px;
 
-      font-size: 16;
+      font-size: 16px;
       line-height: 1.76;
     }
   }
@@ -165,17 +163,19 @@
 
 .about__button-icon {
   margin-left: 14px;
-  width: 5px;
-  height: 8px;
+  width: 6px;
+  height: 9px;
+
+  fill: var(--accent_color);
 }
 
 .advantages__list {
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 730px) {
     display: flex;
   }
 }
 .advantages__item {
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 730px) {
     margin-right: 80px;
   }
   @media screen and (min-width: 1080px) {
@@ -183,6 +183,7 @@
   }
 
   &::before {
+    content: '';
     margin-bottom: 16px;
 
     @media screen and (min-width: 730px) {
@@ -201,6 +202,7 @@
     fill: #ffa5ba;
     background-image: url('../images/svg-icon/milk.svg');
   }
+
   &:nth-child(2)::before {
     content: '';
     display: block;
@@ -240,7 +242,7 @@
 
   color: #000000;
 
-  @media screen and (max-width: 739px) {
+  @media screen and (max-width: 729px) {
     margin-bottom: 38px;
   }
 }

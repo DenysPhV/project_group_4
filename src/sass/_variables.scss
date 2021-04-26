@@ -19,6 +19,17 @@
   --primary_accent: #c7133e;
   --main_text: #907e82;
 
+  // цвет времени
+  // акцент кнопки
+  // кнопка контактов
+  --time-clr: #ffa5ba;
+  --accent-btn: #ecebeb;
+  --contact-btn: #d41342;
+
+  // цвет линии
+  --border: #e1e1e1;
+  --border_clr: #e1e1e1;
+
   // заголовки секций
   --title_heading: 'Titan One', sans-serif;
   --main-font: 'DM Sans', Sans-Serif;
@@ -29,4 +40,7 @@
 
   // переход для ховера и фокуса
   --main-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  // тень контактов
+  --shadow_contacts: rgba(212, 20, 67, 0.1);
 }
