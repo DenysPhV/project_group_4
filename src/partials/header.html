@@ -1,24 +1,29 @@
 <header class="header">
-  <div class="container header__container">
+  <div class="container">
     <nav class="navigation">
-      <a href="" class="logo link">
-        <picture>
-          <source srcset="./images/logo.png 1x, ./images/logo@2.png 2x" media="(min-width: 320px)"/>
+      <a href="./index.html" class="link">
+        <picture class="logo">
+          <source
+            srcset="./images/logo.png 1x, ./images/logo@2.png 2x"
+            media="(min-width: 320px)"
+          />
           <img src="./images/logo.png" alt="logotype" />
         </picture>
       </a>
+
+      <button type="button" class="burger-btn" data-menu-button>
+        <svg class="burger-btn__icon">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+
       <div class="menu" data-menu>
         <button type="button" class="menu__btn-close" data-menu-close>
           <svg class="menu__icon-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <button type="button" class="btn btn-hidden">
-          Buy now
-          <svg class="btn__icon">
-            <use href="./images/icons.svg#icon-arrow"></use>
-          </svg>
-        </button>
+
         <ul class="menu__list list">
           <li class="menu__item">
             <a href="./index.html" class="menu__link link active-link">Home</a>
@@ -38,17 +43,12 @@
         </ul>
       </div>
     </nav>
-    <button type="button" class="burger-btn" data-menu-button>
-      <svg class="burger-btn__icon">
-        <use href="./images/icons.svg#icon-burger"></use>
-      </svg>
-    </button>
-    <button type="button" class="btn btn-tablet">
+
+    <button type="button" class="btn-tablet">
       Buy now
       <svg class="btn__icon">
         <use href="./images/icons.svg#icon-arrow"></use>
       </svg>
     </button>
   </div>
-
 </header>
