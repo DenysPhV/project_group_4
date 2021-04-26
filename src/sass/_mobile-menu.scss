@@ -5,6 +5,7 @@
 
   max-width: 254px;
 
+  overflow: hidden;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -80,29 +81,22 @@
   }
 }
 
+.mobile-menu .btn {
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 729px) {
   .nav-button {
     display: none;
   }
 }
 
-@media screen and (min-wind: 730px) {
-  //   .btn {
-  //     display: block;
-  //     min-width: 160px;
+@media screen and (min-width: 1080px) {
+  .burger {
+    display: none;
+  }
 
-  //     border-radius: 22px;
-  //     border: transparent;
-
-  //     padding: 10px 37px;
-
-  //     font-weight: 700;
-  //     font-size: 16px;
-  //     line-height: 1.31;
-  //     color: var(--accent_color);
-  //     background-color: var(--white);
-  //     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  //
-  //   }
+  .mobile-menu {
+    display: none;
+  }
 }
