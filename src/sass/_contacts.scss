@@ -2,7 +2,7 @@
   background-color: var(--section_background);
   font-weight: 500;
   font-size: 12px;
-  background-image: linear-gradient(to bottom, var(--white) 84px, var(--section_background) 0%);
+  background-image: linear-gradient(to bottom, var(--white) 84px, var(--section_background) 0);
 }
 
 .contact-list {
@@ -130,7 +130,7 @@
 }
 @media screen and (min-width: 730px) {
   .contacts {
-    background-image: linear-gradient(to bottom, var(--white) 78px, var(--section_background) 0%);
+    background-image: linear-gradient(to bottom, var(--white) 78px, var(--section_background) 0);
   }
 
   .contact-list {
@@ -201,12 +201,12 @@
     background-position-y: 102px, 0px;
     background-repeat: no-repeat;
     background-image: url(../images/contacts/contactsbg.png),
-      linear-gradient(to bottom, var(--white) 102px, var(--section_background) 0%);
+      linear-gradient(to bottom, var(--white) 102px, var(--section_background) 0);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .contacts {
       background-image: url(../images/contacts/contactsbg@2.png),
-        linear-gradient(to bottom, var(--white) 102px, var(--section_background) 0%);
+        linear-gradient(to bottom, var(--white) 102px, var(--section_background) 0);
     }
   }
   .contact-list {
