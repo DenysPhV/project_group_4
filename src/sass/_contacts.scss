@@ -102,11 +102,16 @@
   }
 
   &__arrow {
-    width: 6px;
+    width: 8px;
     height: 10px;
     margin-left: 15px;
     fill: var(--white);
+
+    @media screen and (max-width: 729px) {
+      margin-left: 8px;
+    }
   }
+
   &__franchise &__arrow {
     stroke: var(--accent_color);
   }
