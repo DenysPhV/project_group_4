@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 280px;
+}
+
+@media screen and (min-width: 730px) {
+  .navigation {
+    width: 510px;
+  }
+  .nav-button {
+    min-width: 160px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .navigation__list {
+    display: none;
+  }
+}
