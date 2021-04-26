@@ -7,7 +7,7 @@
   margin: 0 21px;
   padding: 10px 48px;
   border-radius: 22px;
-  border: none;
+  border: transparent;
   text-align: center;
   cursor: pointer;
   color: var(--accent_color);
@@ -18,12 +18,14 @@
   &:focus {
     background-color: var(--accent-btn);
   }
-  &__icon {
-    margin-left: 15px;
-    width: 10px;
-    height: 10px;
-  }
+
+  // &__icon {
+  //   margin-left: 15px;
+  //   width: 10px;
+  //   height: 10px;
+  // }
 }
+
 .contact-btn {
   display: flex;
   justify-content: center;
@@ -62,6 +64,7 @@
       background-color: var(--accent-btn);
     }
   }
+
   &__arrow {
     width: 5px;
     height: 8px;

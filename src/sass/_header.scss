@@ -1,25 +1,30 @@
-.btn-tablet {
-  display: none;
-}
-
 .header {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   z-index: 10;
 
-  &__container {
+  & .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     padding-top: 6px;
     padding-bottom: 6px;
   }
 }
 
+.navigation {
+  // min-width: 482px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .burger-btn {
   background-color: transparent;
-  border: none;
+  border: transparent;
+
   padding: 0;
   cursor: pointer;
 
@@ -28,6 +33,10 @@
     width: 20px;
     height: 12px;
   }
+}
+
+.btn-tablet {
+  display: none;
 }
 
 .menu {
@@ -50,12 +59,14 @@
 
 @media screen and (max-width: 1079px) {
   .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    position: fixed;
-    top: 0;
-    right: -5px;
+
     width: 250px;
     height: 100vh;
     padding: 60px 0px;
@@ -102,28 +113,39 @@
 }
 
 @media screen and (min-width: 730px) {
-  .btn-tablet {
-    display: block;
-    min-width: 160px;
-    margin-right: 0px;
-    margin-left: 30px;
-    padding: 10px 37px;
-
-    &__icon {
-      margin-left: 10px;
-    }
-  }
   .header {
     &__container {
       padding-top: 37px;
     }
   }
-  .navigation {
-    min-width: 482px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+  .burger-btn {
+    margin-left: 290px;
   }
+
+  .btn-tablet {
+    display: block;
+    min-width: 160px;
+
+    border-radius: 22px;
+    border: transparent;
+
+    padding: 10px 37px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    color: var(--accent_color);
+    background-color: var(--white);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &__icon {
+      width: 5px;
+      height: 8px;
+      margin-left: 10px;
+    }
+  }
+
   .menu {
     max-width: 254px;
     right: -19px;
@@ -138,13 +160,9 @@
   .burger-btn {
     display: none;
   }
+
   .btn-hidden {
     display: none;
-  }
-
-  .logo {
-    margin-left: -15px;
-    margin-right: 110px;
   }
 
   .menu {
