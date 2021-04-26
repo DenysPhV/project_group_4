@@ -12,7 +12,8 @@
 }
 
 .copyright__text {
-  text-align: center;
+  // text-align: center;
+  margin: 0 auto;
   color: var(--main_text);
 }
 
@@ -41,7 +42,7 @@
     font-size: 14px;
     line-height: 1.52;
     max-width: 150px;
-    margin: 0 auto;
+    // margin: 0 auto;
   }
 }
 
