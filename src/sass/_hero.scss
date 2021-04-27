@@ -149,10 +149,32 @@
       letter-spacing: 0.01em;
       width: 114px;
       color: var(--white);
+      margin-bottom: 7px;
     }
     &__img {
       margin-top: 7px;
       margin-bottom: 6px;
+    }
+    &__button {
+      cursor: pointer;
+      padding: 0;
+      margin-bottom: 10px;
+      width: 18px;
+      height: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background-color: var(--white);
+      border-color: transparent;
+    }
+    &__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      fill: red;
     }
   }
 
@@ -260,11 +282,21 @@
       line-height: 1.4;
       width: 200px;
       margin-left: 30px;
+      margin-bottom: 20px;
     }
     &__img {
       margin-top: 20px;
       margin-bottom: 11px;
       margin-left: 30px;
+    }
+    &__button {
+      width: 26px;
+      height: 26px;
+      margin-left: 30px;
+    }
+    &__icon {
+      width: 26px;
+      height: 26px;
     }
   }
 
