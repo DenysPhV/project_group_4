@@ -8,7 +8,7 @@
 }
 
 // tablet
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 730px;
 
@@ -20,7 +20,7 @@
 }
 
 // desktop
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1080px;
   }

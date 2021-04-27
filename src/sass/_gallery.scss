@@ -13,14 +13,14 @@
 }
 
 // TABLET
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 768px) {
   .gallery-img {
     max-width: 730px;
   }
 }
 
 // DESCTOP
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .gallery-img {
     max-width: 1280px;
     display: none;

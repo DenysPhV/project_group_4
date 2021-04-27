@@ -4,7 +4,7 @@
 }
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
 
@@ -90,13 +90,13 @@
   margin-left: 20px;
 }
 
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 767px) {
   .nav-button {
     display: none;
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .burger {
     display: none;
   }

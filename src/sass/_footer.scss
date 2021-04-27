@@ -18,7 +18,7 @@
 }
 
 // MOBILE
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 767px) {
   .page-footer {
     padding-top: 60px;
     //padding-bottom: 45px;
@@ -47,7 +47,7 @@
 }
 
 // TABLET
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 768px) {
   .page-footer {
     padding-top: 60px;
     //padding-bottom: 90px;
@@ -74,7 +74,7 @@
 }
 
 // DESCTOP
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .page-footer {
     padding-top: 80px;
     //padding-bottom: 95px;

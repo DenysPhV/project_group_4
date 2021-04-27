@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 768px) {
   .navigation {
     width: 510px;
   }
@@ -28,13 +28,13 @@
   }
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1279px) {
   .navigation__list {
     display: none;
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .navigation {
     width: 850px;
     &__btn-close {
