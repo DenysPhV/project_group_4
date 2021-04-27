@@ -54,35 +54,69 @@
     padding-left: 12px;
     padding-right: 12px;
     line-height: 2.5;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 10;
+      width: 54px;
+      height: 40px;
+
+      background-image: url(../images/svg-icon/quotes.svg#quotes);
+      background-position: center;
+      background-repeat: no-repeat;
+
+      fill: var(--border);
+    }
   }
 
   &-site {
+    position: relative;
     margin-bottom: 30px;
 
     color: var(--black);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.86;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      display: block;
+      width: 32px;
+      height: 4px;
+
+      background-image: url(../images/icons.svg#group-points);
+      background-position: center;
+      background-repeat: no-repeat;
+
+      fill: var(--primary_accent);
+    }
   }
 }
 
-.group-points {
-  margin-bottom: 18px;
-  fill: var(--primary_accent);
+// .group-points {
+//   margin-bottom: 18px;
+//   fill: var(--primary_accent);
 
-  width: 32px;
-  height: 4px;
-}
+//   width: 32px;
+//   height: 4px;
+// }
 
-.quotes {
-  position: absolute;
+// .quotes {
+//   position: absolute;
 
-  top: -17px;
-  left: 10px;
-  fill: var(--border);
-  width: 54px;
-  height: 40px;
-}
+//   top: -17px;
+//   left: 10px;
+//   fill: var(--border);
+//   width: 54px;
+//   height: 40px;
+// }
 
 // tablet
 @media screen and (min-width: 768px) {
