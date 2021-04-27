@@ -18,15 +18,15 @@
   color: var(--accent_color);
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 768px) {
   .header {
-    &__container {
+    & .container {
       padding-top: 37px;
     }
   }
 }
 
-// @media screen and (min-width: 1080px) {
+// @media screen and (min-width: 1280px) {
 //   .burger-btn {
 //     display: none;
 //   }

@@ -101,7 +101,7 @@
   display: none;
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 768px) {
   .hero {
     & .container {
       padding-top: 31px;
@@ -208,7 +208,7 @@
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .hero {
     & .container {
       padding-top: 52px;

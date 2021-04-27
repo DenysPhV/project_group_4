@@ -19,9 +19,10 @@
   }
 
   &-wrapper {
+    position: relative;
     width: 280px;
     padding: 43px 50px 20px;
-    margin-bottom: 34px;
+    margin-bottom: 42px;
 
     color: var(--black);
     font-weight: 500;
@@ -29,6 +30,23 @@
 
     border-radius: 10px;
     background-color: #fafafa;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 54px;
+      left: 76px;
+      transform: translate(-50%, -50%);
+
+      z-index: 3;
+      width: 54px;
+      height: 40px;
+
+      background: url(../images/svg-icon/quotes.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 
   &-descr {
@@ -50,6 +68,7 @@
     position: absolute;
     top: 3px;
     left: 0;
+    z-index: 5;
     height: 100%;
     padding-left: 12px;
     padding-right: 12px;
@@ -57,39 +76,37 @@
   }
 
   &-site {
+    position: relative;
     margin-bottom: 30px;
 
     color: var(--black);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.86;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      display: block;
+      width: 32px;
+      height: 4px;
+
+      background-image: url(../images/svg-icon/group-points.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 }
 
-.group-points {
-  margin-bottom: 18px;
-  fill: var(--primary_accent);
-
-  width: 32px;
-  height: 4px;
-}
-
-.quotes {
-  position: absolute;
-
-  top: -17px;
-  left: 10px;
-  fill: var(--border);
-  width: 54px;
-  height: 40px;
-}
-
 // tablet
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 768px) {
   .client {
     &-wrapper {
       width: 620px;
-      padding: 20px 50px;
     }
 
     &-descr {
@@ -111,7 +128,7 @@
 }
 
 // desktop
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .client {
     &-wrapper {
       width: 932px;
