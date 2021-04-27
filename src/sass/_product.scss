@@ -51,15 +51,16 @@
     color: var(--white);
     
     margin-bottom: 30px;
+    &::after {
+      content: '. . .';
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      font-weight: inherit;
+
+    }
 }
- .product__title::after{
-   content: '. . .';
-   display: block;
-   text-align: center;
-  margin-top: 30px;
-   font-weight: inherit;
-  
- }
+ 
 .product__label{
     
     font-weight: 700;
@@ -90,12 +91,35 @@
 .product__box_first-color{
     
     background: var(--hero_background);
+    transition: transform 500ms,
+    background-color 500ms;
+    &:hover{
+      transform: scale(1.3);
+      background-color: #7cfc00;
+      cursor: pointer;
+    }
 }
 .product__box_second-color{
-    background: var(--card_background_coffee)
+    background: var(--card_background_coffee);
+     transition: transform 500ms,
+     background-color 500ms;
+
+     &:hover {
+       transform: scale(1.3);
+       background-color: #778899;
+       cursor: pointer;
+     }
 }
 .product__box_third-color{
-    background: var(--card_background_mint)
+    background: var(--card_background_mint);
+     transition: transform 500ms,
+     background-color 500ms;
+
+     &:hover {
+       transform: scale(1.3);
+       background-color: #c61585;
+       cursor: pointer;
+     }
 }
 .product__icon{
     
