@@ -35,20 +35,17 @@
       content: '';
       display: block;
       position: absolute;
-      top: 50px;
-      left: 80px;
+      top: 54px;
+      left: 76px;
       transform: translate(-50%, -50%);
 
       z-index: 3;
       width: 54px;
       height: 40px;
 
-      background: url(../images/svg-icon/quotes.svg#quotes);
+      background: url(../images/svg-icon/quotes.svg);
       background-position: center;
       background-repeat: no-repeat;
-
-      fill: var(--border);
-      background-color: tomato;
     }
   }
 
@@ -98,13 +95,9 @@
       width: 32px;
       height: 4px;
 
-      background-image: url(../images/icons.svg#group-points);
+      background-image: url(../images/svg-icon/group-points.svg);
       background-position: center;
       background-repeat: no-repeat;
-
-      fill: var(--primary_accent);
-
-      outline: 1px solid tomato;
     }
   }
 }
@@ -114,7 +107,6 @@
   .client {
     &-wrapper {
       width: 620px;
-      padding: 20px 50px;
     }
 
     &-descr {
