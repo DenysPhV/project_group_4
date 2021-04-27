@@ -29,24 +29,24 @@
     line-height: 0.965;
     color: var(--accent_color);
   }
+
   &__btn {
     font-weight: 400;
     font-size: 8px;
     line-height: 10px;
-    min-width: 62px;
-    min-height: 24px;
+
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 19px;
-    border: none;
+
     border-radius: 20px;
     text-align: center;
-    cursor: pointer;
 
     &:not(:last-child) {
       margin-right: 8px;
     }
     &-theme-light {
+      min-width: 138px;
       color: var(--accent_color);
       background-color: var(--white);
       &:hover {
@@ -61,6 +61,10 @@
       }
     }
   }
+}
+
+.hero__btn-list {
+  display: flex;
 }
 
 .circle {
