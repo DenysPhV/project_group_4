@@ -21,6 +21,11 @@
 
 // DESCTOP
 @media screen and (min-width: 1080px) {
+  .gallery {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
   .gallery-img {
     max-width: 1280px;
     display: none;
