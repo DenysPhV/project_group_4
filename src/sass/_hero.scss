@@ -45,14 +45,15 @@
     &:not(:last-child) {
       margin-right: 8px;
     }
+
     &-theme-light {
-      min-width: 138px;
       color: var(--accent_color);
       background-color: var(--white);
       &:hover {
         background-color: #ecebeb;
       }
     }
+
     &-theme-dark {
       color: var(--white);
       background-color: var(--accent_color);
