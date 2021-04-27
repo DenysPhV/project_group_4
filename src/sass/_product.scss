@@ -96,6 +96,7 @@
     &:hover{
       transform: scale(1.3);
       background-color: #7cfc00;
+      cursor: pointer;
     }
 }
 .product__box_second-color{
@@ -106,6 +107,7 @@
      &:hover {
        transform: scale(1.3);
        background-color: #778899;
+       cursor: pointer;
      }
 }
 .product__box_third-color{
@@ -116,6 +118,7 @@
      &:hover {
        transform: scale(1.3);
        background-color: #c61585;
+       cursor: pointer;
      }
 }
 .product__icon{
