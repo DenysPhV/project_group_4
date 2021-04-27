@@ -1,0 +1,47 @@
+<section id="about" class="about">
+  <div class="container">
+    <p class="about__lable">Tradition and love</p>
+    <h2 class="about__title">How it’s made?</h2>
+    <div class="about__wrapper">
+      <picture>
+        <source
+          srcset="./images/about/desktop/cow.png 1x, ./images/about/desktop/cow@2.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="./images/about/tablet/cow.png 1x, ./images/about/tablet/cow@2.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./images/about/mobile/cow.png 1x, ./images/about/mobile/cow@2.png 2x"
+          media="(min-width: 320px)"
+        />
+        <img
+          src="./images/about/mobile/cow.png"
+          alt="image of a cow and bio eco milk"
+          class="about__image"
+        />
+      </picture>
+      <div class="about__list-wrapper">
+        <ul class="about__list list">
+          <li class="about__list-item">
+            Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+            lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
+          </li>
+          <li class="about__list-item">
+            Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus
+            orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat
+            urna maximus. Cras massa nibh, tincidunt.
+          </li>
+          <li class="about__list-item">Aliquam erat volutpat. Aenean accumsan.</li>
+        </ul>
+        <button type="button" class="btn about__button">
+          Read more
+          <svg class="btn__icon about__button-icon">
+            <use href="./images/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
