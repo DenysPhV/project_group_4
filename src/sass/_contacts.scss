@@ -79,15 +79,14 @@
     background: var(--contact-btn);
     border-radius: 22px;
     margin-bottom: 10px;
+    transform: scale(1);
+    transition: transform var(--main-transition);
     .btn__icon {
       fill: var(--white);
     }
     &:hover,
     &:focus {
-      color: var(--accent-btn);
-      .btn__icon {
-        fill: var(--accent-btn);
-      }
+      transform: scale(1.1);
     }
   }
   &__franchise {
@@ -105,9 +104,11 @@
     background: var(--white);
     border-radius: 22px;
     margin-bottom: 66px;
-    transition: background-color var(--main-transition);
+    transform: scale(1);
+    transition: transform var(--main-transition), background-color var(--main-transition);
     &:hover,
     &:focus {
+      transform: scale(1.1);
       background-color: var(--accent-btn);
     }
   }
