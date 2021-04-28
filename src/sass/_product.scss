@@ -1,3 +1,66 @@
+
+.product__information {
+  background-color: hsl(0, 79%, 72%, 0.7);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: auto;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+
+}
+
+.product-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #E17992;
+  border-radius: 50%;
+  border-color: transparent;
+  cursor: pointer;
+
+}
+
+//Кнопка внизу product
+
+.product__information {
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: auto;
+
+}
+
+.product__information.is-opens {
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+}
+
+.is-opens {
+  transform: translateY(0) translateX(-50%);
+}
+
+.product__icon-btn {
+  width: 14px;
+  height: 14px;
+
+}
+
+.product__points {
+
+  width: 26px;
+  height: 6px;
+  fill: white;
+  margin-bottom: 30px;
+}
+
 .price{ 
   
     padding-top: 121px;
@@ -63,10 +126,7 @@
    }
 } 
 
-     .price{
-    padding-top: 121px;
-    padding-bottom: 98px;
-}
+    
    
 
 
@@ -227,66 +287,7 @@
   position: relative;
 }
 
-.product__information {
-  background-color: hsl(0, 79%, 72%, 0.7);
-  position: absolute;
-  top: 0;
-  left: 50%;
-  height: auto;
-  visibility: hidden;
-  width: 100%;
-  height: 100%;
 
-  overflow: hidden;
-
-  border-radius: 24px;
-
-
-}
-
-.product-close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #E17992;
-  border-radius: 50%;
-  border-color: transparent;
-  cursor: pointer;
-
-}
-//Кнопка внизу product
-
-.product__information {
-
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: auto;
-
-}
-
-.product__information.is-opens {
-  z-index: 1;
-  opacity: 1;
-  visibility: visible;
-}
-
-.is-opens {
-  transform: translateY(0) translateX(-50%);
-}
-
-.product__icon-btn {
-  width: 14px;
-  height: 14px;
-
-}
-
-.product__points{
-    
-    width: 26px;
-    height: 6px;
-    fill: white;
-    margin-bottom: 30px;
-}
 
 
 .product__box_first-color::before {
