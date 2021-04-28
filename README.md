@@ -1,4 +1,4 @@
-# Shark_skills <img align="left" alt="Git" width="32px" src="../images/svg-icon/sharkskills.svg" />
+# Shark_skills <img align="left" alt="Git" width="64px" src="./images/shark-skills.png" />
 
 ================
 
