@@ -2,7 +2,7 @@
 ================
 # Denys (TL)
 # <a href="https://github.com/MerryMmary">Marrya (SM)</a>
-# Alexander (Dev) https://github.com/OleksandrB1
+# <a href="https://github.com/OleksandrB1">Alexander (Dev)</a>  
 # Myroslav (Dev)
 # Ruslan (Dev)
 # Kristian (Dev)
