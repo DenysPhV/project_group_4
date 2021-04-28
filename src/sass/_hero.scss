@@ -50,8 +50,11 @@
       border-radius: 20px;
       color: var(--accent_color);
       background-color: var(--white);
+      transform: scale(1);
+      transition: transform var(--main-transition);
       &:hover {
         background-color: #ecebeb;
+        transform: scale(1.1);
       }
     }
 
@@ -64,9 +67,11 @@
       border-radius: 20px;
       color: var(--white);
       background-color: var(--accent_color);
-
+      transform: scale(1);
+      transition: transform var(--main-transition);
       &:hover {
         background-color: var(--primary_accent);
+        transform: scale(1.1);
       }
     }
   }
@@ -167,6 +172,12 @@
       border-radius: 50%;
       background-color: var(--white);
       border-color: transparent;
+      transform: scale(1);
+      transition: transform var(--main-transition);
+      &:hover,
+      &:focus {
+        transform: scale(1.2);
+      }
     }
     &__icon {
       display: flex;

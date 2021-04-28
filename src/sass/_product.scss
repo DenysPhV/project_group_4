@@ -108,6 +108,12 @@
   border-radius: 50%;
   background-color: var(--white);
   border-color: transparent;
+  transform: scale(1);
+  transition: transform var(--main-transition);
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 }
 
 .product__points {

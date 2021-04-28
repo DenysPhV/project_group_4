@@ -79,6 +79,12 @@
   min-width: 176px;
   height: 44px;
   border: 1px solid transparent;
+  transform: scale(1);
+  transition: transform var(--main-transition);
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
 }
 
 //tablet
