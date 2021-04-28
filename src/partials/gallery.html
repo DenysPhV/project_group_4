@@ -3,21 +3,34 @@
     <h2 class="title visually-hidden">gallery</h2>
 
     <div class="gallery-wrapper">
-      <div class="gallery__elem">
-        <picture>
-          <source
+      <div class="col1">
+        <div class="gallery__elem">
+          <picture>
+            <source
+              srcset="
+                ./images/gallery/desktop/1x/1_1@1.jpg 1x,
+                ./images/gallery/desktop/2x/1_1@2.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source 
             srcset="
-              ./images/gallery/desktop/1x/1_1@1.jpg 1x,
-              ./images/gallery/desktop/2x/1_1@2.jpg 2x
-            "
-            media="(min-width: 1280px)"
-          />
-          <img
-            class="gallery__img"
-            src="./images/gallery/desktop/1x/1_1@1.jpg"
-            alt="Conus ice creams"
-          />
-        </picture>
+                ./images/gallery/tablet/1x/1_1@1.jpg 1x,
+                ./images/gallery/tablet/2x/1_1@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/1_1@1.jpg 1x,
+                ./images/gallery/mobile/2x/1_1@2.jpg 2x
+              " media="(min-width: 320px)" />
+            
+            <img
+              class="gallery__img"
+              src="./images/gallery/desktop/1x/1_1@1.jpg"
+              alt="Conus ice creams"
+            />
+          </picture>
+        </div>
       </div>
 
       <div class="col2">
@@ -31,6 +44,17 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+              srcset="
+                  ./images/gallery/tablet/1x/2_1@1.jpg 1x,
+                  ./images/gallery/tablet/2x/2_1@2.jpg 2x
+                " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                  ./images/gallery/mobile/1x/2_1@1.jpg 1x,
+                  ./images/gallery/mobile/2x/2_1@2.jpg 2x
+                " media="(min-width: 320px)" />
+            
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/2_1@1.jpg"
@@ -48,6 +72,17 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/2_2@1.jpg 1x,
+                ./images/gallery/tablet/2x/2_2@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/2_2@1.jpg 1x,
+                ./images/gallery/mobile/2x/2_2@2.jpg 2x
+              " media="(min-width: 320px)" />
+            
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/2_2@1.jpg"
@@ -67,6 +102,16 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/3_1@1.jpg 1x,
+                ./images/gallery/tablet/2x/3_1@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/3_1@1.jpg 1x,
+                ./images/gallery/mobile/2x/3_1@2.jpg 2x
+              " media="(min-width: 320px)" />
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/3_1@1.jpg"
@@ -84,6 +129,17 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/3_2@1.jpg 1x,
+                ./images/gallery/tablet/2x/3_2@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/3_2@1.jpg 1x,
+                ./images/gallery/mobile/2x/3_2@2.jpg 2x
+              " media="(min-width: 320px)" />
+              
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/3_2@1.jpg"
@@ -104,6 +160,16 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/5_1@1.jpg 1x,
+                ./images/gallery/tablet/2x/5_1@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                  ./images/gallery/mobile/1x/5_1@1.jpg 1x,
+                  ./images/gallery/mobile/2x/5_1@2.jpg 2x
+                " media="(min-width: 320px)" />
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/5_1@1.jpg"
@@ -121,6 +187,16 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/5_2@1.jpg 1x,
+                ./images/gallery/tablet/2x/5_2@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/5_2@1.jpg 1x,
+                ./images/gallery/mobile/2x/5_2@2.jpg 2x
+              " media="(min-width: 320px)" />
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/5_2@1.jpg"
@@ -140,6 +216,16 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/6_1@1.jpg 1x,
+                ./images/gallery/tablet/2x/6_1@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/6_1@1.jpg 1x,
+                ./images/gallery/mobile/2x/6_1@2.jpg 2x
+              " media="(min-width: 320px)" />
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/6_1@1.jpg"
@@ -157,6 +243,17 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/6_2@1.jpg 1x,
+                ./images/gallery/tablet/2x/6_2@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/6_2@1.jpg 1x,
+                ./images/gallery/mobile/2x/6_2@2.jpg 2x
+              " media="(min-width: 320px)" />
+              
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/6_2@1.jpg"
@@ -177,6 +274,16 @@
               "
               media="(min-width: 1280px)"
             />
+            <source 
+            srcset="
+                ./images/gallery/tablet/1x/7_1@1.jpg 1x,
+                ./images/gallery/tablet/2x/7_1@2.jpg 2x
+              " media="(min-width: 768px)" />
+            <source 
+            srcset="
+                ./images/gallery/mobile/1x/7_1@1.jpg 1x,
+                ./images/gallery/mobile/2x/7_1@2.jpg 2x
+              " media="(min-width: 320px)" />
             <img
               class="gallery__img"
               src="./images/gallery/desktop/1x/7_1@1.jpg"
@@ -186,6 +293,8 @@
         </div>
       </div>
     </div>
+
+
 
     <picture class="gallery-img">
       <source
