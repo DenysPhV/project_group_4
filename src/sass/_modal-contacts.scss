@@ -12,11 +12,12 @@
 
 .modal-contact {
   position: absolute;
+  z-index: 30;
   top: 50%;
   left: 50%;
   padding: 10px;
   width: 100%;
-  max-width: 290px;
+  max-width: 95vw;
   border-radius: 10px;
   background-image: linear-gradient(
     to bottom,
@@ -29,8 +30,8 @@
   transition: transform var(--main-transition), visibility var(--main-transition);
   &__close {
     position: absolute;
-    top: 3px;
-    right: 3px;
+    top: 5px;
+    right: 5px;
     border-style: none;
     background: transparent;
     cursor: pointer;
@@ -68,8 +69,8 @@
       var(--section_background) 15%
     );
     &__close {
-      top: 5px;
-      right: 5px;
+      top: 6px;
+      right: 6px;
     }
     &__title {
       font-size: 18px;
@@ -98,8 +99,8 @@
       right: 8px;
     }
     &__close-icon {
-      width: 25px;
-      height: 25px;
+      width: 17px;
+      height: 17px;
     }
   }
 }

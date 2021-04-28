@@ -51,23 +51,11 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et
         </p>
-        <picture>
-          <source
-            srcset="
-              ./images/hero/desktop/arrow_right.png   1x,
-              ./images/hero/desktop/arrow_right@2.png 2x
-            "
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="
-              ./images/hero/tablet/arrow_right.png   1x,
-              ./images/hero/tablet/arrow_right@2.png 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <img class="bio-eco__img" src="./images/hero/tablet/arrow_right.png" alt="arrow" />
-        </picture>
+        <button class="bio-eco__button" type="button">
+          <svg class="bio-eco__icon">
+            <use href="./images/icons.svg#arrow"></use>
+          </svg>
+        </button>
       </div>
     </div>
 
