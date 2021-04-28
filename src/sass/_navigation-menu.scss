@@ -25,6 +25,12 @@
   .nav-button {
     min-width: 160px;
     height: 44px;
+    transform: scale(1);
+    transition: transform var(--main-transition);
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+    }
   }
 }
 

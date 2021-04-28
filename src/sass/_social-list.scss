@@ -7,12 +7,14 @@
 
   border-radius: 50%;
   background-color: #fea5bb;
+  transform: scale(1);
 
-  transition: background-color var(--main-transition);
+  transition: background-color var(--main-transition), transform var(--main-transition);
 
   .social-icons-list__item:hover &,
   .social-icons-list__item:focus & {
     background-color: var(--accent_color);
+    transform: scale(1.1);
   }
 }
 
