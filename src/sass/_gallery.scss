@@ -31,7 +31,7 @@
   .gallery-wrapper {
     display: flex;
     align-items: center;
-    //justify-content: space-between;
+    justify-content: space-around;
   }
 
   .gallery__elem {
@@ -83,6 +83,7 @@
   .col3 .gallery__elem:last-child {
     display: flex;
     flex-direction: column;
+    width: 50%;
 
     & .gallery__img {
       flex-grow: 0.5;
