@@ -2,7 +2,7 @@
 ================
 # Denys (TL)
 # Marrya (SM)
-# Alexander
-# Myroslav
-# Ruslan
-# Kristian
+# Alexander (Dev)
+# Myroslav (Dev)
+# Ruslan (Dev)
+# Kristian (Dev)
