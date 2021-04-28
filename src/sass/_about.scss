@@ -1,10 +1,10 @@
-.making {
+.about {
   background-color: var(--section_background);
   padding-top: var(--section-pt);
-  padding-bottom: var(--section-pb);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: 55%;
+  background-position-y: 93%;
+  background-position-x: 50%;
 
   @media screen and (max-width: 767px) {
     background-image: url('../images/about/mobile/milk.png');
@@ -47,10 +47,6 @@
   color: var(--accent_color);
 }
 
-.about__wrapper {
-  margin-bottom: 45px;
-}
-
 .about__list-wrapper {
   @media screen and (max-width: 767px) {
     padding-left: 30px;
@@ -69,6 +65,12 @@
     color: var(--black);
   }
 
+  &:nth-child(2) {
+    @media screen and (max-width: 767px) {
+      width: 231px;
+    }
+  }
+
   margin-bottom: 17px;
   font-weight: 500;
   line-height: 1.62;
@@ -79,66 +81,8 @@
   border: 1px solid transparent;
 }
 
-.advantages__item {
-  &::before {
-    content: '';
-    margin-bottom: 16px;
-  }
-  &:nth-child(1)::before {
-    content: '';
-    display: block;
-    width: 33px;
-    height: 50px;
-    background-size: 33px 50px;
-    fill: #ffa5ba;
-    background-image: url('../images/svg-icon/milk.svg');
-  }
-
-  &:nth-child(2)::before {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px 50px;
-    fill: #ffa5ba;
-    background-image: url('../images/svg-icon/fruits.svg');
-  }
-  &:nth-child(3)::before {
-    content: '';
-    display: block;
-    width: 44px;
-    height: 50px;
-    background-size: 44px 50px;
-    fill: #ffa5ba;
-    background-image: url('../images/svg-icon/candy.svg');
-  }
-}
-
-.advantages__item-quantity {
-  display: block;
-
-  margin-bottom: 15px;
-
-  font-family: var(--title_heading);
-  font-size: 36px;
-  line-height: 1.14;
-  text-transform: uppercase;
-
-  color: var(--accent_color);
-}
-
-.advantages__item-description {
-  font-weight: 700;
-  line-height: 1.7;
-
-  color: #000000;
-
-  @media screen and (max-width: 767px) {
-    margin-bottom: 38px;
-  }
-}
-
 //tablet
+
 @media screen and (min-width: 768px) {
   .about__lable {
     font-size: 26px;
@@ -153,7 +97,6 @@
   .about__wrapper {
     display: flex;
     margin-top: 50px;
-    margin-bottom: 65px;
   }
 
   .about__image {
@@ -161,34 +104,30 @@
   }
 
   .about__list-item {
+    font-size: 14px;
+    line-height: 1.76;
+
     &:first-child {
       width: 360px;
       margin-top: 35px;
       margin-bottom: 25px;
-
-      font-size: 14px;
-      line-height: 1.76;
+    }
+    &:nth-child(2) {
+      width: 350px;
     }
   }
-
   .about__button {
     margin-top: 40px;
-  }
-
-  .advantages__list {
-    display: flex;
-  }
-
-  .advantages__item {
-    margin-right: 80px;
-    &::before {
-      margin-bottom: 36px;
-    }
   }
 }
 
 //desktop
+
 @media screen and (min-width: 1280px) {
+  .about {
+    background-position-y: 130%;
+  }
+
   .about__lable {
     font-size: 30px;
     line-height: 1.13;
@@ -200,33 +139,25 @@
     letter-spacing: 0.06em;
   }
 
-  .about__wrapper {
-    margin-bottom: 40px;
-  }
-
   .about__image {
     margin-right: 74px;
   }
 
   .about__list-item {
+    line-height: 1.94;
     &:first-child {
-      width: 400px;
+      width: 450px;
       margin-top: 55px;
       margin-bottom: 35px;
-
       font-size: 16px;
       line-height: 1.76;
+    }
+    &:nth-child(2) {
+      width: 445px;
     }
   }
 
   .about__button {
     margin-top: 45px;
-  }
-
-  .advantages__item {
-    margin-right: 90px;
-    &::before {
-      margin-bottom: 40px;
-    }
   }
 }
