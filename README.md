@@ -13,3 +13,11 @@
 # <a href="https://github.com/ruslan3486">Ruslan (Dev)</a>
 
 # <a href="https://github.com/Tovt-Kristian">Kristian (Dev)</a>
+
+# Stacks
+
+<img align="left" alt="Git" width="64px" src="" />
+<img align="left" alt="Git" width="64px" src="" />
+<img align="left" alt="Git" width="64px" src="" />
+<img align="left" alt="Git" width="64px" src="" />
+<img align="left" alt="Git" width="64px" src="" />
